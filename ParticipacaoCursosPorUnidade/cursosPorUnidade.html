@@ -71,7 +71,36 @@ d3.json("json/porCurso.json", function(data) {
 	     if (shift >= 0) {return d3.hsl(colorCategoryGroup(retornaUnidade(group))).darker(brightrange(shift));}
 	     else {return d3.hsl(colorCategoryGroup(retornaUnidade(group))).brighter(brightrange(-shift));}             
   }   
-	  
+
+// Tooltip em D3 //	  
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 1e-6);
+
+function mouseover() {
+  div.transition()
+      .duration(500)
+      .style("opacity", 1);
+      
+/*  div.html(
+     d3.select(this).attr("text", "ola")
+  );
+*/}
+
+function mousemove() {
+  div
+      .text(d3.event.pageX + ", " + d3.event.pageY)
+      .style("left", (d3.event.pageX - 34) + "px")
+      .style("top", (d3.event.pageY - 12) + "px");
+}
+
+function mouseout() {
+  div.transition()
+      .duration(500)
+      .style("opacity", 1e-6);
+}
+
+       
   vis.selectAll("circle")
       .data(nodes)
     .enter().append("svg:circle")
@@ -80,8 +109,12 @@ d3.json("json/porCurso.json", function(data) {
       .attr("cy", function(d) { return d.y; })
       .attr("r", function(d) { return d.r; })
       .attr("fill",function(d) { return color(d.name,50);})
-      .on("click", function(d) { return zoom(node == d ? root : d); });
-
+      .text(function(d) { return d.name; })
+      .on("click", function(d) { return zoom(node == d ? root : d); })
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseout", mouseout);
+               
   vis.selectAll("text")
       .data(nodes)
     .enter().append("svg:text")
@@ -117,7 +150,7 @@ function zoom(d, i) {
   node = d;
   d3.event.stopPropagation();
 }
-
+       
     </script>
   
 
