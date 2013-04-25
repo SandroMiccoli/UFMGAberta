@@ -1,0 +1,242 @@
+[
+    {
+        "curso": "ADMINISTRACAO/DIURNO",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "ADMINISTRACAO/NOTURNO",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "CIENCIAS CONTABEIS/NOTURNO",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "CIENCIAS ECONOMICAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "DIREITO/DIURNO",
+        "unidade": "DIREITO"
+    },
+    {
+        "curso": "DIREITO/NOTURNO",
+        "unidade": "DIREITO"
+    },
+    {
+        "curso": "BIBLIOTECONOMIA/DIURNO",
+        "unidade": "ECI"
+    },
+    {
+        "curso": "BIBLIOTECONOMIA/NOTURNO",
+        "unidade": "ECI"
+    },
+    {
+        "curso": "CIENCIAS SOCIAIS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "COMUNICACAO SOCIAL/DIURNO",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "FILOSOFIA",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "HISTORIA/DIURNO",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "HISTORIA/NOTURNO",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "PSICOLOGIA",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "LETRAS/DIURNO",
+        "unidade": "LETRAS"
+    },
+    {
+        "curso": "LETRAS/NOTURNO",
+        "unidade": "LETRAS"
+    },
+    {
+        "curso": "PEDAGOGIA/DIURNO",
+        "unidade": "FAE"
+    },
+    {
+        "curso": "PEDAGOGIA/NOTURNO",
+        "unidade": "FAE"
+    },
+    {
+        "curso": "ARTES VISUAIS",
+        "unidade": "BELAS ARTES"
+    },
+    {
+        "curso": "TEATRO",
+        "unidade": "BELAS ARTES"
+    },
+    {
+        "curso": "MUSICA/DIURNO",
+        "unidade": "MUSICA"
+    },
+    {
+        "curso": "GEOGRAFIA/DIURNO",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "GEOGRAFIA/NOTURNO",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "GEOLOGIA",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "TURISMO",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "ARQUITETURA E URBANISMO/DIURNO",
+        "unidade": "ARQUITETURA"
+    },
+    {
+        "curso": "CIENCIA DA COMPUTACAO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "SISTEMAS DE INFORMACAO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "CIENCIAS ATUARIAIS",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "ESTATISTICA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "FISICA/DIURNO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "FISICA/NOTURNO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA/DIURNO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA/NOTURNO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA COMPUTACIONAL",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "QUIMICA/DIURNO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "QUIMICA/NOTURNO",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "ENGENHARIA CIVIL",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENG. CONTROLE AUTOMACAO/DIURNO",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA DE MINAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA DE PRODUCAO",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA ELETRICA",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA MECANICA-DIURNO",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA MECANICA-NOTURNO",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA METALURGICA",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA QUIMICA",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "FARMACIA-Diurno",
+        "unidade": "FARMACIA"
+    },
+    {
+        "curso": "MEDICINA VETERINARIA",
+        "unidade": "VETERINARIA"
+    },
+    {
+        "curso": "EDUCACAO FISICA",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "FISIOTERAPIA",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "TERAPIA OCUPACIONAL",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "ENFERMAGEM",
+        "unidade": "ENFERMAGEM"
+    },
+    {
+        "curso": "NUTRICAO",
+        "unidade": "ENFERMAGEM"
+    },
+    {
+        "curso": "MEDICINA",
+        "unidade": "MEDICINA"
+    },
+    {
+        "curso": "FONOAUDIOLOGIA",
+        "unidade": "MEDICINA"
+    },
+    {
+        "curso": "ODONTOLOGIA",
+        "unidade": "ODONTOLOGIA"
+    },
+    {
+        "curso": "CIENCIAS BIOLOGICAS/DIURNO",
+        "unidade": "ICB"
+    },
+    {
+        "curso": "CIENCIAS BIOLOGICAS/NOTURNO",
+        "unidade": "ICB"
+    },
+    {
+        "curso": "AGRONOMIA",
+        "unidade": "ICA"
+    },
+    {
+        "curso": "ZOOTECNIA",
+        "unidade": "ICA"
+    }
+]

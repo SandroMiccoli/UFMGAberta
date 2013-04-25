@@ -1,0 +1,1110 @@
+{
+	"name": " ",
+	"children":[
+    {
+        "name": "FACE",
+        "children": [
+            {
+                "name": "ENGENHARIA MECANICA-NOTURNO",
+                "size": 24
+            },
+            {
+                "name": "ADMINISTRACAO/DIURNO",
+                "size": 758
+            },
+            {
+                "name": "MEDICINA VETERINARIA",
+                "size": 21
+            },
+            {
+                "name": "TURISMO",
+                "size": 96
+            },
+            {
+                "name": "SISTEMAS DE INFORMACAO",
+                "size": 190
+            },
+            {
+                "name": "CIENCIAS ECONOMICAS",
+                "size": 846
+            },
+            {
+                "name": "DIREITO/DIURNO",
+                "size": 16
+            },
+            {
+                "name": "HISTORIA/NOTURNO",
+                "size": 18
+            },
+            {
+                "name": "ESTATISTICA",
+                "size": 37
+            },
+            {
+                "name": "CIENCIAS ATUARIAIS",
+                "size": 292
+            },
+            {
+                "name": "DIREITO/NOTURNO",
+                "size": 17
+            },
+            {
+                "name": "CIENCIAS CONTABEIS/NOTURNO",
+                "size": 749
+            },
+            {
+                "name": "ENGENHARIA MECANICA-DIURNO",
+                "size": 27
+            },
+            {
+                "name": "BIBLIOTECONOMIA/DIURNO",
+                "size": 39
+            },
+            {
+                "name": "ENGENHARIA CIVIL",
+                "size": 15
+            },
+            {
+                "name": "BIBLIOTECONOMIA/NOTURNO",
+                "size": 37
+            },
+            {
+                "name": "ARQUITETURA E URBANISMO/DIURNO",
+                "size": 11
+            },
+            {
+                "name": "COMUNICACAO SOCIAL/DIURNO",
+                "size": 42
+            },
+            {
+                "name": "ADMINISTRACAO/NOTURNO",
+                "size": 718
+            },
+            {
+                "name": "HISTORIA/DIURNO",
+                "size": 17
+            },
+            {
+                "name": "CIENCIAS SOCIAIS",
+                "size": 76
+            },
+            {
+                "name": "ENGENHARIA DE PRODUCAO",
+                "size": 55
+            },
+            {
+                "name": "CIENCIA DA COMPUTACAO",
+                "size": 62
+            }
+        ]
+    },
+    {
+        "name": "DIREITO",
+        "children": [
+            {
+                "name": "ADMINISTRACAO/DIURNO",
+                "size": 43
+            },
+            {
+                "name": "DIREITO/DIURNO",
+                "size": 924
+            },
+            {
+                "name": "DIREITO/NOTURNO",
+                "size": 925
+            },
+            {
+                "name": "CIENCIAS CONTABEIS/NOTURNO",
+                "size": 76
+            },
+            {
+                "name": "ADMINISTRACAO/NOTURNO",
+                "size": 39
+            }
+        ]
+    },
+    {
+        "name": "ECI",
+        "children": [
+            {
+                "name": "SISTEMAS DE INFORMACAO",
+                "size": 56
+            },
+            {
+                "name": "BIBLIOTECONOMIA/DIURNO",
+                "size": 812
+            },
+            {
+                "name": "BIBLIOTECONOMIA/NOTURNO",
+                "size": 802
+            }
+        ]
+    },
+    {
+        "name": "FAFICH",
+        "children": [
+            {
+                "name": "ENGENHARIA ELETRICA",
+                "size": 56
+            },
+            {
+                "name": "ENGENHARIA MECANICA-NOTURNO",
+                "size": 32
+            },
+            {
+                "name": "ADMINISTRACAO/DIURNO",
+                "size": 53
+            },
+            {
+                "name": "MUSICA/DIURNO",
+                "size": 13
+            },
+            {
+                "name": "TURISMO",
+                "size": 159
+            },
+            {
+                "name": "CIENCIAS ECONOMICAS",
+                "size": 11
+            },
+            {
+                "name": "DIREITO/DIURNO",
+                "size": 49
+            },
+            {
+                "name": "GEOGRAFIA/NOTURNO",
+                "size": 31
+            },
+            {
+                "name": "HISTORIA/NOTURNO",
+                "size": 797
+            },
+            {
+                "name": "LETRAS/DIURNO",
+                "size": 11
+            },
+            {
+                "name": "ARTES VISUAIS",
+                "size": 17
+            },
+            {
+                "name": "FILOSOFIA",
+                "size": 840
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 77
+            },
+            {
+                "name": "DIREITO/NOTURNO",
+                "size": 50
+            },
+            {
+                "name": "GEOGRAFIA/DIURNO",
+                "size": 25
+            },
+            {
+                "name": "PSICOLOGIA",
+                "size": 884
+            },
+            {
+                "name": "CIENCIAS CONTABEIS/NOTURNO",
+                "size": 51
+            },
+            {
+                "name": "ENGENHARIA MECANICA-DIURNO",
+                "size": 32
+            },
+            {
+                "name": "BIBLIOTECONOMIA/DIURNO",
+                "size": 68
+            },
+            {
+                "name": "ENGENHARIA CIVIL",
+                "size": 31
+            },
+            {
+                "name": "BIBLIOTECONOMIA/NOTURNO",
+                "size": 68
+            },
+            {
+                "name": "ARQUITETURA E URBANISMO/DIURNO",
+                "size": 23
+            },
+            {
+                "name": "COMUNICACAO SOCIAL/DIURNO",
+                "size": 753
+            },
+            {
+                "name": "ADMINISTRACAO/NOTURNO",
+                "size": 58
+            },
+            {
+                "name": "TERAPIAO CUPACIONAL",
+                "size": 84
+            },
+            {
+                "name": "FISIOTERAPIA",
+                "size": 60
+            },
+            {
+                "name": "PEDAGOGIA/DIURNO",
+                "size": 11
+            },
+            {
+                "name": "HISTORIA/DIURNO",
+                "size": 821
+            },
+            {
+                "name": "CIENCIAS SOCIAIS",
+                "size": 776
+            },
+            {
+                "name": "PEDAGOGIA/NOTURNO",
+                "size": 38
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 29
+            }
+        ]
+    },
+    {
+        "name": "LETRAS",
+        "children": [
+            {
+                "name": "ENGENHARIA ELETRICA",
+                "size": 29
+            },
+            {
+                "name": "TURISMO",
+                "size": 78
+            },
+            {
+                "name": "SISTEMAS DE INFORMACAO",
+                "size": 16
+            },
+            {
+                "name": "LETRAS/NOTURNO",
+                "size": 837
+            },
+            {
+                "name": "HISTORIA/NOTURNO",
+                "size": 22
+            },
+            {
+                "name": "MATEMATICA COMPUTACIONAL",
+                "size": 18
+            },
+            {
+                "name": "ESTATISTICA",
+                "size": 67
+            },
+            {
+                "name": "LETRAS/DIURNO",
+                "size": 863
+            },
+            {
+                "name": "FILOSOFIA",
+                "size": 60
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 42
+            },
+            {
+                "name": "CIENCIAS ATUARIAIS",
+                "size": 39
+            },
+            {
+                "name": "CIENCIAS CONTABEIS/NOTURNO",
+                "size": 18
+            },
+            {
+                "name": "TEATRO",
+                "size": 71
+            },
+            {
+                "name": "BIBLIOTECONOMIA/DIURNO",
+                "size": 19
+            },
+            {
+                "name": "BIBLIOTECONOMIA/NOTURNO",
+                "size": 28
+            },
+            {
+                "name": "COMUNICACAO SOCIAL/DIURNO",
+                "size": 55
+            },
+            {
+                "name": "PEDAGOGIA/DIURNO",
+                "size": 16
+            },
+            {
+                "name": "HISTORIA/DIURNO",
+                "size": 20
+            },
+            {
+                "name": "CIENCIAS SOCIAIS",
+                "size": 20
+            },
+            {
+                "name": "CIENCIA DA COMPUTACAO",
+                "size": 25
+            },
+            {
+                "name": "PEDAGOGIA/NOTURNO",
+                "size": 13
+            }
+        ]
+    },
+    {
+        "name": "FAE",
+        "children": [
+            {
+                "name": "ENGENHARIA MECANICA-NOTURNO",
+                "size": 12
+            },
+            {
+                "name": "MUSICA/DIURNO",
+                "size": 46
+            },
+            {
+                "name": "LETRAS/NOTURNO",
+                "size": 137
+            },
+            {
+                "name": "GEOGRAFIA/NOTURNO",
+                "size": 167
+            },
+            {
+                "name": "HISTORIA/NOTURNO",
+                "size": 123
+            },
+            {
+                "name": "FISICA/NOTURNO",
+                "size": 231
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/NOTURNO",
+                "size": 232
+            },
+            {
+                "name": "QUIMICA/DIURNO",
+                "size": 26
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/DIURNO",
+                "size": 101
+            },
+            {
+                "name": "MATEMATICA/NOTURNO",
+                "size": 161
+            },
+            {
+                "name": "EDUCACAO FISICA",
+                "size": 91
+            },
+            {
+                "name": "LETRAS/DIURNO",
+                "size": 109
+            },
+            {
+                "name": "ARTES VISUAIS",
+                "size": 19
+            },
+            {
+                "name": "FILOSOFIA",
+                "size": 51
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 24
+            },
+            {
+                "name": "MATEMATICA/DIURNO",
+                "size": 80
+            },
+            {
+                "name": "GEOGRAFIA/DIURNO",
+                "size": 66
+            },
+            {
+                "name": "PSICOLOGIA",
+                "size": 12
+            },
+            {
+                "name": "TEATRO",
+                "size": 86
+            },
+            {
+                "name": "FISICA/DIURNO",
+                "size": 68
+            },
+            {
+                "name": "PEDAGOGIA/DIURNO",
+                "size": 932
+            },
+            {
+                "name": "HISTORIA/DIURNO",
+                "size": 92
+            },
+            {
+                "name": "CIENCIAS SOCIAIS",
+                "size": 70
+            },
+            {
+                "name": "QUIMICA/NOTURNO",
+                "size": 137
+            },
+            {
+                "name": "PEDAGOGIA/NOTURNO",
+                "size": 907
+            }
+        ]
+    },
+    {
+        "name": "BELASARTES",
+        "children": [
+            {
+                "name": "ARTES VISUAIS",
+                "size": 953
+            },
+            {
+                "name": "TEATRO",
+                "size": 787
+            },
+            {
+                "name": "COMUNICACAO SOCIAL/DIURNO",
+                "size": 92
+            }
+        ]
+    },
+    {
+        "name": "MUSICA",
+        "children": [
+            {
+                "name": "MUSICA/DIURNO",
+                "size": 917
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 12
+            },
+            {
+                "name": "TEATRO",
+                "size": 27
+            }
+        ]
+    },
+    {
+        "name": "IGC",
+        "children": [
+            {
+                "name": "TURISMO",
+                "size": 557
+            },
+            {
+                "name": "ENGENHARIA DE MINAS",
+                "size": 134
+            },
+            {
+                "name": "GEOGRAFIA/NOTURNO",
+                "size": 743
+            },
+            {
+                "name": "ENGENHARIA METALURGICA",
+                "size": 20
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/NOTURNO",
+                "size": 20
+            },
+            {
+                "name": "QUIMICA/DIURNO",
+                "size": 17
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/DIURNO",
+                "size": 21
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 16
+            },
+            {
+                "name": "GEOGRAFIA/DIURNO",
+                "size": 853
+            },
+            {
+                "name": "TEATRO",
+                "size": 24
+            },
+            {
+                "name": "ENGENHARIA CIVIL",
+                "size": 40
+            },
+            {
+                "name": "GEOLOGIA",
+                "size": 732
+            },
+            {
+                "name": "ARQUITETURA E URBANISMO/DIURNO",
+                "size": 35
+            },
+            {
+                "name": "QUIMICA/NOTURNO",
+                "size": 11
+            }
+        ]
+    },
+    {
+        "name": "ARQUITETURA",
+        "children": [
+            {
+                "name": "TURISMO",
+                "size": 20
+            },
+            {
+                "name": "ENGENHARIA CIVIL",
+                "size": 15
+            },
+            {
+                "name": "ARQUITETURA E URBANISMO/DIURNO",
+                "size": 761
+            },
+            {
+                "name": "HISTORIA/DIURNO",
+                "size": 13
+            }
+        ]
+    },
+    {
+        "name": "ICEX",
+        "children": [
+            {
+                "name": "ENGENHARIA ELETRICA",
+                "size": 277
+            },
+            {
+                "name": "ENGENHARIA MECANICA-NOTURNO",
+                "size": 201
+            },
+            {
+                "name": "ADMINISTRACAO/DIURNO",
+                "size": 97
+            },
+            {
+                "name": "MEDICINA VETERINARIA",
+                "size": 14
+            },
+            {
+                "name": "SISTEMAS DE INFORMACAO",
+                "size": 668
+            },
+            {
+                "name": "ENGENHARIA DE MINAS",
+                "size": 357
+            },
+            {
+                "name": "CIENCIAS ECONOMICAS",
+                "size": 109
+            },
+            {
+                "name": "GEOGRAFIA/NOTURNO",
+                "size": 23
+            },
+            {
+                "name": "ENGENHARIA METALURGICA",
+                "size": 396
+            },
+            {
+                "name": "FISICA/NOTURNO",
+                "size": 752
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/NOTURNO",
+                "size": 64
+            },
+            {
+                "name": "MATEMATICA COMPUTACIONAL",
+                "size": 935
+            },
+            {
+                "name": "QUIMICA/DIURNO",
+                "size": 909
+            },
+            {
+                "name": "ESTATISTICA",
+                "size": 851
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/DIURNO",
+                "size": 67
+            },
+            {
+                "name": "MATEMATICA/NOTURNO",
+                "size": 835
+            },
+            {
+                "name": "ENGENHARIA QUIMICA",
+                "size": 431
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 48
+            },
+            {
+                "name": "MATEMATICA/DIURNO",
+                "size": 911
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 16
+            },
+            {
+                "name": "CIENCIAS ATUARIAIS",
+                "size": 656
+            },
+            {
+                "name": "GEOGRAFIA/DIURNO",
+                "size": 25
+            },
+            {
+                "name": "PSICOLOGIA",
+                "size": 28
+            },
+            {
+                "name": "CIENCIAS CONTABEIS/NOTURNO",
+                "size": 67
+            },
+            {
+                "name": "ENGENHARIA MECANICA-DIURNO",
+                "size": 195
+            },
+            {
+                "name": "BIBLIOTECONOMIA/DIURNO",
+                "size": 31
+            },
+            {
+                "name": "ENGENHARIA CIVIL",
+                "size": 258
+            },
+            {
+                "name": "FISICA/DIURNO",
+                "size": 897
+            },
+            {
+                "name": "GEOLOGIA",
+                "size": 257
+            },
+            {
+                "name": "BIBLIOTECONOMIA/NOTURNO",
+                "size": 30
+            },
+            {
+                "name": "ENG. CONTROLE AUTOMACAO/DIURNO",
+                "size": 315
+            },
+            {
+                "name": "ADMINISTRACAO/NOTURNO",
+                "size": 90
+            },
+            {
+                "name": "TERAPIA OCUPACIONAL",
+                "size": 17
+            },
+            {
+                "name": "FISIOTERAPIA",
+                "size": 18
+            },
+            {
+                "name": "PEDAGOGIA/DIURNO",
+                "size": 11
+            },
+            {
+                "name": "CIENCIAS SOCIAIS",
+                "size": 23
+            },
+            {
+                "name": "ENGENHARIA DE PRODUCAO",
+                "size": 294
+            },
+            {
+                "name": "CIENCIA DA COMPUTACAO",
+                "size": 844
+            },
+            {
+                "name": "QUIMICA/NOTURNO",
+                "size": 833
+            },
+            {
+                "name": "FARMACIA-Diurno",
+                "size": 253
+            },
+            {
+                "name": "PEDAGOGIA/NOTURNO",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA",
+        "children": [
+            {
+                "name": "ENGENHARIA ELETRICA",
+                "size": 618
+            },
+            {
+                "name": "ENGENHARIA MECANICA-NOTURNO",
+                "size": 665
+            },
+            {
+                "name": "ENGENHARIA DE MINAS",
+                "size": 485
+            },
+            {
+                "name": "ENGENHARIA METALURGICA",
+                "size": 548
+            },
+            {
+                "name": "QUIMICA/DIURNO",
+                "size": 20
+            },
+            {
+                "name": "ENGENHARIA QUIMICA",
+                "size": 530
+            },
+            {
+                "name": "ENGENHARIA MECANICA-DIURNO",
+                "size": 670
+            },
+            {
+                "name": "ENGENHARIA CIVIL",
+                "size": 628
+            },
+            {
+                "name": "ARQUITETURA E URBANISMO/DIURNO",
+                "size": 155
+            },
+            {
+                "name": "ENG. CONTROLE AUTOMACAO/DIURNO",
+                "size": 655
+            },
+            {
+                "name": "ENGENHARIA DE PRODUCAO",
+                "size": 605
+            }
+        ]
+    },
+    {
+        "name": "FARMACIA",
+        "children": [
+            {
+                "name": "NUTRICAO",
+                "size": 96
+            },
+            {
+                "name": "FARMACIA-Diurno",
+                "size": 504
+            }
+        ]
+    },
+    {
+        "name": "VETERINARIA",
+        "children": [
+            {
+                "name": "MEDICINA VETERINARIA",
+                "size": 640
+            }
+        ]
+    },
+    {
+        "name": "EEFFTO",
+        "children": [
+            {
+                "name": "TURISMO",
+                "size": 18
+            },
+            {
+                "name": "EDUCACAO FISICA",
+                "size": 775
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 11
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 22
+            },
+            {
+                "name": "TERAPIA OCUPACIONAL",
+                "size": 615
+            },
+            {
+                "name": "FISIOTERAPIA",
+                "size": 633
+            }
+        ]
+    },
+    {
+        "name": "ENFERMAGEM",
+        "children": [
+            {
+                "name": "NUTRICAO",
+                "size": 569
+            },
+            {
+                "name": "TERAPIA OCUPACIONAL",
+                "size": 14
+            },
+            {
+                "name": "FISIOTERAPIA",
+                "size": 14
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 731
+            }
+        ]
+    },
+    {
+        "name": "MEDICINA",
+        "children": [
+            {
+                "name": "MEDICINA",
+                "size": 750
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 95
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 628
+            },
+            {
+                "name": "TERAPIA OCUPACIONAL",
+                "size": 68
+            },
+            {
+                "name": "FISIOTERAPIA",
+                "size": 68
+            }
+        ]
+    },
+    {
+        "name": "ODONTOLOGIA",
+        "children": [
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 29
+            },
+            {
+                "name": "ODONTOLOGIA",
+                "size": 716
+            }
+        ]
+    },
+    {
+        "name": "ICB",
+        "children": [
+            {
+                "name": "MEDICINA VETERINARIA",
+                "size": 309
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/NOTURNO",
+                "size": 632
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/DIURNO",
+                "size": 772
+            },
+            {
+                "name": "EDUCACAO FISICA",
+                "size": 93
+            },
+            {
+                "name": "MEDICINA",
+                "size": 234
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 105
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 130
+            },
+            {
+                "name": "PSICOLOGIA",
+                "size": 55
+            },
+            {
+                "name": "ADMINISTRACAO/NOTURNO",
+                "size": 17
+            },
+            {
+                "name": "TERAPIA OCUPACIONAL",
+                "size": 175
+            },
+            {
+                "name": "FISIOTERAPIA",
+                "size": 188
+            },
+            {
+                "name": "ODONTOLOGIA",
+                "size": 274
+            },
+            {
+                "name": "FARMACIA-Diurno",
+                "size": 224
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 217
+            }
+        ]
+    },
+    {
+        "name": "ICA",
+        "children": [
+            {
+                "name": "AGRONOMIA",
+                "size": 996
+            },
+            {
+                "name": "ZOOTECNIA",
+                "size": 998
+            }
+        ]
+    },
+    {
+        "name": "REUNI",
+        "children": [
+            {
+                "name": "ENGENHARIA MECANICA-NOTURNO",
+                "size": 42
+            },
+            {
+                "name": "ADMINISTRACAO/DIURNO",
+                "size": 29
+            },
+            {
+                "name": "TURISMO",
+                "size": 47
+            },
+            {
+                "name": "SISTEMAS DE INFORMACAO",
+                "size": 48
+            },
+            {
+                "name": "CIENCIAS ECONOMICAS",
+                "size": 16
+            },
+            {
+                "name": "LETRAS/NOTURNO",
+                "size": 14
+            },
+            {
+                "name": "GEOGRAFIA/NOTURNO",
+                "size": 14
+            },
+            {
+                "name": "HISTORIA/NOTURNO",
+                "size": 24
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/NOTURNO",
+                "size": 20
+            },
+            {
+                "name": "MATEMATICA COMPUTACIONAL",
+                "size": 29
+            },
+            {
+                "name": "ESTATISTICA",
+                "size": 32
+            },
+            {
+                "name": "CIENCIAS BIOLOGICAS/DIURNO",
+                "size": 11
+            },
+            {
+                "name": "EDUCACAO FISICA",
+                "size": 32
+            },
+            {
+                "name": "ENGENHARIA QUIMICA",
+                "size": 20
+            },
+            {
+                "name": "FILOSOFIA",
+                "size": 16
+            },
+            {
+                "name": "NUTRICAO",
+                "size": 25
+            },
+            {
+                "name": "FONOAUDIOLOGIA",
+                "size": 25
+            },
+            {
+                "name": "CIENCIAS CONTABEIS/NOTURNO",
+                "size": 20
+            },
+            {
+                "name": "ENGENHARIA MECANICA-DIURNO",
+                "size": 40
+            },
+            {
+                "name": "BIBLIOTECONOMIA/DIURNO",
+                "size": 25
+            },
+            {
+                "name": "FISICA/DIURNO",
+                "size": 12
+            },
+            {
+                "name": "BIBLIOTECONOMIA/NOTURNO",
+                "size": 26
+            },
+            {
+                "name": "COMUNICACAO SOCIAL/DIURNO",
+                "size": 33
+            },
+            {
+                "name": "ADMINISTRACAO/NOTURNO",
+                "size": 31
+            },
+            {
+                "name": "PEDAGOGIA/DIURNO",
+                "size": 14
+            },
+            {
+                "name": "HISTORIA/DIURNO",
+                "size": 13
+            },
+            {
+                "name": "CIENCIAS SOCIAIS",
+                "size": 11
+            },
+            {
+                "name": "ENGENHARIA DE PRODUCAO",
+                "size": 32
+            },
+            {
+                "name": "CIENCIA DA COMPUTACAO",
+                "size": 45
+            },
+            {
+                "name": "PEDAGOGIA/NOTURNO",
+                "size": 14
+            }
+        ]
+    }
+  ]
+}

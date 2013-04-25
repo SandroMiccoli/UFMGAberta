@@ -1,0 +1,1305 @@
+{
+	"name":"CURSOS",
+	"children":[
+    {
+        "name": "ADMINISTRACAO/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 53
+            },
+            {
+                "name": "FACE",
+                "size": 758
+            },
+            {
+                "name": "REUNI",
+                "size": 29
+            },
+            {
+                "name": "DIREITO",
+                "size": 43
+            },
+            {
+                "name": "ICEX",
+                "size": 97
+            }
+        ]
+    },
+    {
+        "name": "ADMINISTRACAO/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 58
+            },
+            {
+                "name": "ICB",
+                "size": 17
+            },
+            {
+                "name": "FACE",
+                "size": 718
+            },
+            {
+                "name": "REUNI",
+                "size": 31
+            },
+            {
+                "name": "DIREITO",
+                "size": 39
+            },
+            {
+                "name": "ICEX",
+                "size": 90
+            }
+        ]
+    },
+    {
+        "name": "CIENCIAS CONTABEIS/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 51
+            },
+            {
+                "name": "FACE",
+                "size": 749
+            },
+            {
+                "name": "REUNI",
+                "size": 20
+            },
+            {
+                "name": "DIREITO",
+                "size": 76
+            },
+            {
+                "name": "LETRAS",
+                "size": 18
+            },
+            {
+                "name": "ICEX",
+                "size": 67
+            }
+        ]
+    },
+    {
+        "name": "CIENCIAS ECONOMICAS",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 11
+            },
+            {
+                "name": "FACE",
+                "size": 846
+            },
+            {
+                "name": "REUNI",
+                "size": 16
+            },
+            {
+                "name": "ICEX",
+                "size": 109
+            }
+        ]
+    },
+    {
+        "name": "DIREITO/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 49
+            },
+            {
+                "name": "FACE",
+                "size": 16
+            },
+            {
+                "name": "DIREITO",
+                "size": 924
+            }
+        ]
+    },
+    {
+        "name": "DIREITO/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 50
+            },
+            {
+                "name": "FACE",
+                "size": 17
+            },
+            {
+                "name": "DIREITO",
+                "size": 925
+            }
+        ]
+    },
+    {
+        "name": "BIBLIOTECONOMIA/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 68
+            },
+            {
+                "name": "ECI",
+                "size": 812
+            },
+            {
+                "name": "FACE",
+                "size": 39
+            },
+            {
+                "name": "REUNI",
+                "size": 25
+            },
+            {
+                "name": "LETRAS",
+                "size": 19
+            },
+            {
+                "name": "ICEX",
+                "size": 31
+            }
+        ]
+    },
+    {
+        "name": "BIBLIOTECONOMIA/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 68
+            },
+            {
+                "name": "ECI",
+                "size": 802
+            },
+            {
+                "name": "FACE",
+                "size": 37
+            },
+            {
+                "name": "REUNI",
+                "size": 26
+            },
+            {
+                "name": "LETRAS",
+                "size": 28
+            },
+            {
+                "name": "ICEX",
+                "size": 30
+            }
+        ]
+    },
+    {
+        "name": "CIENCIAS SOCIAIS",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 776
+            },
+            {
+                "name": "FAE",
+                "size": 70
+            },
+            {
+                "name": "FACE",
+                "size": 76
+            },
+            {
+                "name": "REUNI",
+                "size": 11
+            },
+            {
+                "name": "LETRAS",
+                "size": 20
+            },
+            {
+                "name": "ICEX",
+                "size": 23
+            }
+        ]
+    },
+    {
+        "name": "COMUNICACAO SOCIAL/DIURNO",
+        "children": [
+            {
+                "name": "BELAS ARTES",
+                "size": 92
+            },
+            {
+                "name": "FAFICH",
+                "size": 753
+            },
+            {
+                "name": "FACE",
+                "size": 42
+            },
+            {
+                "name": "REUNI",
+                "size": 33
+            },
+            {
+                "name": "LETRAS",
+                "size": 55
+            }
+        ]
+    },
+    {
+        "name": "FILOSOFIA",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 840
+            },
+            {
+                "name": "FAE",
+                "size": 51
+            },
+            {
+                "name": "REUNI",
+                "size": 16
+            },
+            {
+                "name": "LETRAS",
+                "size": 60
+            }
+        ]
+    },
+    {
+        "name": "HISTORIA/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 821
+            },
+            {
+                "name": "FAE",
+                "size": 92
+            },
+            {
+                "name": "ARQUITETURA",
+                "size": 13
+            },
+            {
+                "name": "FACE",
+                "size": 17
+            },
+            {
+                "name": "REUNI",
+                "size": 13
+            },
+            {
+                "name": "LETRAS",
+                "size": 20
+            }
+        ]
+    },
+    {
+        "name": "HISTORIA/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 797
+            },
+            {
+                "name": "FAE",
+                "size": 123
+            },
+            {
+                "name": "FACE",
+                "size": 18
+            },
+            {
+                "name": "REUNI",
+                "size": 24
+            },
+            {
+                "name": "LETRAS",
+                "size": 22
+            }
+        ]
+    },
+    {
+        "name": "PSICOLOGIA",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 884
+            },
+            {
+                "name": "FAE",
+                "size": 12
+            },
+            {
+                "name": "ICB",
+                "size": 55
+            },
+            {
+                "name": "ICEX",
+                "size": 28
+            }
+        ]
+    },
+    {
+        "name": "LETRAS/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 11
+            },
+            {
+                "name": "FAE",
+                "size": 109
+            },
+            {
+                "name": "LETRAS",
+                "size": 863
+            }
+        ]
+    },
+    {
+        "name": "LETRAS/NOTURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 137
+            },
+            {
+                "name": "REUNI",
+                "size": 14
+            },
+            {
+                "name": "LETRAS",
+                "size": 837
+            }
+        ]
+    },
+    {
+        "name": "PEDAGOGIA/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 11
+            },
+            {
+                "name": "FAE",
+                "size": 932
+            },
+            {
+                "name": "REUNI",
+                "size": 14
+            },
+            {
+                "name": "LETRAS",
+                "size": 16
+            },
+            {
+                "name": "ICEX",
+                "size": 11
+            }
+        ]
+    },
+    {
+        "name": "PEDAGOGIA/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 38
+            },
+            {
+                "name": "FAE",
+                "size": 907
+            },
+            {
+                "name": "REUNI",
+                "size": 14
+            },
+            {
+                "name": "LETRAS",
+                "size": 13
+            },
+            {
+                "name": "ICEX",
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "ARTES VISUAIS",
+        "children": [
+            {
+                "name": "BELAS ARTES",
+                "size": 953
+            },
+            {
+                "name": "FAFICH",
+                "size": 17
+            },
+            {
+                "name": "FAE",
+                "size": 19
+            }
+        ]
+    },
+    {
+        "name": "TEATRO",
+        "children": [
+            {
+                "name": "BELAS ARTES",
+                "size": 787
+            },
+            {
+                "name": "FAE",
+                "size": 86
+            },
+            {
+                "name": "IGC",
+                "size": 24
+            },
+            {
+                "name": "MUSICA",
+                "size": 27
+            },
+            {
+                "name": "LETRAS",
+                "size": 71
+            }
+        ]
+    },
+    {
+        "name": "MUSICA/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 13
+            },
+            {
+                "name": "FAE",
+                "size": 46
+            },
+            {
+                "name": "MUSICA",
+                "size": 917
+            }
+        ]
+    },
+    {
+        "name": "GEOGRAFIA/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 25
+            },
+            {
+                "name": "FAE",
+                "size": 66
+            },
+            {
+                "name": "IGC",
+                "size": 853
+            },
+            {
+                "name": "ICEX",
+                "size": 25
+            }
+        ]
+    },
+    {
+        "name": "GEOGRAFIA/NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 31
+            },
+            {
+                "name": "FAE",
+                "size": 167
+            },
+            {
+                "name": "IGC",
+                "size": 743
+            },
+            {
+                "name": "REUNI",
+                "size": 14
+            },
+            {
+                "name": "ICEX",
+                "size": 23
+            }
+        ]
+    },
+    {
+        "name": "GEOLOGIA",
+        "children": [
+            {
+                "name": "IGC",
+                "size": 732
+            },
+            {
+                "name": "ICEX",
+                "size": 257
+            }
+        ]
+    },
+    {
+        "name": "TURISMO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 159
+            },
+            {
+                "name": "EEFFTO",
+                "size": 18
+            },
+            {
+                "name": "ARQUITETURA",
+                "size": 20
+            },
+            {
+                "name": "IGC",
+                "size": 557
+            },
+            {
+                "name": "FACE",
+                "size": 96
+            },
+            {
+                "name": "REUNI",
+                "size": 47
+            },
+            {
+                "name": "LETRAS",
+                "size": 78
+            }
+        ]
+    },
+    {
+        "name": "ARQUITETURA E URBANISMO/DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 23
+            },
+            {
+                "name": "ARQUITETURA",
+                "size": 761
+            },
+            {
+                "name": "ENGENHARIA",
+                "size": 155
+            },
+            {
+                "name": "IGC",
+                "size": 35
+            },
+            {
+                "name": "FACE",
+                "size": 11
+            }
+        ]
+    },
+    {
+        "name": "CIENCIA DA COMPUTACAO",
+        "children": [
+            {
+                "name": "FACE",
+                "size": 62
+            },
+            {
+                "name": "REUNI",
+                "size": 45
+            },
+            {
+                "name": "LETRAS",
+                "size": 25
+            },
+            {
+                "name": "ICEX",
+                "size": 844
+            }
+        ]
+    },
+    {
+        "name": "SISTEMAS DE INFORMACAO",
+        "children": [
+            {
+                "name": "ECI",
+                "size": 56
+            },
+            {
+                "name": "FACE",
+                "size": 190
+            },
+            {
+                "name": "REUNI",
+                "size": 48
+            },
+            {
+                "name": "LETRAS",
+                "size": 16
+            },
+            {
+                "name": "ICEX",
+                "size": 668
+            }
+        ]
+    },
+    {
+        "name": "CIENCIAS ATUARIAIS",
+        "children": [
+            {
+                "name": "FACE",
+                "size": 292
+            },
+            {
+                "name": "LETRAS",
+                "size": 39
+            },
+            {
+                "name": "ICEX",
+                "size": 656
+            }
+        ]
+    },
+    {
+        "name": "ESTATISTICA",
+        "children": [
+            {
+                "name": "FACE",
+                "size": 37
+            },
+            {
+                "name": "REUNI",
+                "size": 32
+            },
+            {
+                "name": "LETRAS",
+                "size": 67
+            },
+            {
+                "name": "ICEX",
+                "size": 851
+            }
+        ]
+    },
+    {
+        "name": "FISICA/DIURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 68
+            },
+            {
+                "name": "REUNI",
+                "size": 12
+            },
+            {
+                "name": "ICEX",
+                "size": 897
+            }
+        ]
+    },
+    {
+        "name": "FISICA/NOTURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 231
+            },
+            {
+                "name": "ICEX",
+                "size": 752
+            }
+        ]
+    },
+    {
+        "name": "MATEMATICA/DIURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 80
+            },
+            {
+                "name": "ICEX",
+                "size": 911
+            }
+        ]
+    },
+    {
+        "name": "MATEMATICA/NOTURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 161
+            },
+            {
+                "name": "ICEX",
+                "size": 835
+            }
+        ]
+    },
+    {
+        "name": "MATEMATICA COMPUTACIONAL",
+        "children": [
+            {
+                "name": "REUNI",
+                "size": 29
+            },
+            {
+                "name": "LETRAS",
+                "size": 18
+            },
+            {
+                "name": "ICEX",
+                "size": 935
+            }
+        ]
+    },
+    {
+        "name": "QUIMICA/DIURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 26
+            },
+            {
+                "name": "ENGENHARIA",
+                "size": 20
+            },
+            {
+                "name": "IGC",
+                "size": 17
+            },
+            {
+                "name": "ICEX",
+                "size": 909
+            }
+        ]
+    },
+    {
+        "name": "QUIMICA/NOTURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 137
+            },
+            {
+                "name": "IGC",
+                "size": 11
+            },
+            {
+                "name": "ICEX",
+                "size": 833
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA CIVIL",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 31
+            },
+            {
+                "name": "ARQUITETURA",
+                "size": 15
+            },
+            {
+                "name": "ENGENHARIA",
+                "size": 628
+            },
+            {
+                "name": "IGC",
+                "size": 40
+            },
+            {
+                "name": "FACE",
+                "size": 15
+            },
+            {
+                "name": "ICEX",
+                "size": 258
+            }
+        ]
+    },
+    {
+        "name": "ENG. CONTROLE AUTOMACAO/DIURNO",
+        "children": [
+            {
+                "name": "ENGENHARIA",
+                "size": 655
+            },
+            {
+                "name": "ICEX",
+                "size": 315
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA DE MINAS",
+        "children": [
+            {
+                "name": "ENGENHARIA",
+                "size": 485
+            },
+            {
+                "name": "IGC",
+                "size": 134
+            },
+            {
+                "name": "ICEX",
+                "size": 357
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA DE PRODUCAO",
+        "children": [
+            {
+                "name": "ENGENHARIA",
+                "size": 605
+            },
+            {
+                "name": "FACE",
+                "size": 55
+            },
+            {
+                "name": "REUNI",
+                "size": 32
+            },
+            {
+                "name": "ICEX",
+                "size": 294
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA ELETRICA",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 56
+            },
+            {
+                "name": "ENGENHARIA",
+                "size": 618
+            },
+            {
+                "name": "LETRAS",
+                "size": 29
+            },
+            {
+                "name": "ICEX",
+                "size": 277
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA MECANICA-DIURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 32
+            },
+            {
+                "name": "ENGENHARIA",
+                "size": 670
+            },
+            {
+                "name": "FACE",
+                "size": 27
+            },
+            {
+                "name": "REUNI",
+                "size": 40
+            },
+            {
+                "name": "ICEX",
+                "size": 195
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA MECANICA-NOTURNO",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 32
+            },
+            {
+                "name": "FAE",
+                "size": 12
+            },
+            {
+                "name": "ENGENHARIA",
+                "size": 665
+            },
+            {
+                "name": "FACE",
+                "size": 24
+            },
+            {
+                "name": "REUNI",
+                "size": 42
+            },
+            {
+                "name": "ICEX",
+                "size": 201
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA METALURGICA",
+        "children": [
+            {
+                "name": "ENGENHARIA",
+                "size": 548
+            },
+            {
+                "name": "IGC",
+                "size": 20
+            },
+            {
+                "name": "ICEX",
+                "size": 396
+            }
+        ]
+    },
+    {
+        "name": "ENGENHARIA QUIMICA",
+        "children": [
+            {
+                "name": "ENGENHARIA",
+                "size": 530
+            },
+            {
+                "name": "REUNI",
+                "size": 20
+            },
+            {
+                "name": "ICEX",
+                "size": 431
+            }
+        ]
+    },
+    {
+        "name": "FARMACIA-Diurno",
+        "children": [
+            {
+                "name": "ICB",
+                "size": 224
+            },
+            {
+                "name": "FARMACIA",
+                "size": 504
+            },
+            {
+                "name": "ICEX",
+                "size": 253
+            }
+        ]
+    },
+    {
+        "name": "MEDICINA VETERINARIA",
+        "children": [
+            {
+                "name": "VETERINARIA",
+                "size": 640
+            },
+            {
+                "name": "ICB",
+                "size": 309
+            },
+            {
+                "name": "FACE",
+                "size": 21
+            },
+            {
+                "name": "ICEX",
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "EDUCACAO FISICA",
+        "children": [
+            {
+                "name": "EEFFTO",
+                "size": 775
+            },
+            {
+                "name": "FAE",
+                "size": 91
+            },
+            {
+                "name": "ICB",
+                "size": 93
+            },
+            {
+                "name": "REUNI",
+                "size": 32
+            }
+        ]
+    },
+    {
+        "name": "FISIOTERAPIA",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 60
+            },
+            {
+                "name": "EEFFTO",
+                "size": 633
+            },
+            {
+                "name": "MEDICINA",
+                "size": 68
+            },
+            {
+                "name": "ICB",
+                "size": 188
+            },
+            {
+                "name": "ICEX",
+                "size": 18
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "TERAPIA OCUPACIONAL",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 84
+            },
+            {
+                "name": "EEFFTO",
+                "size": 615
+            },
+            {
+                "name": "MEDICINA",
+                "size": 68
+            },
+            {
+                "name": "ICB",
+                "size": 175
+            },
+            {
+                "name": "ICEX",
+                "size": 17
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "ENFERMAGEM",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 29
+            },
+            {
+                "name": "ICB",
+                "size": 217
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 731
+            }
+        ]
+    },
+    {
+        "name": "NUTRICAO",
+        "children": [
+            {
+                "name": "EEFFTO",
+                "size": 11
+            },
+            {
+                "name": "MEDICINA",
+                "size": 95
+            },
+            {
+                "name": "FAE",
+                "size": 24
+            },
+            {
+                "name": "ICB",
+                "size": 105
+            },
+            {
+                "name": "IGC",
+                "size": 16
+            },
+            {
+                "name": "FARMACIA",
+                "size": 96
+            },
+            {
+                "name": "REUNI",
+                "size": 25
+            },
+            {
+                "name": "ICEX",
+                "size": 48
+            },
+            {
+                "name": "ENFERMAGEM",
+                "size": 569
+            }
+        ]
+    },
+    {
+        "name": "MEDICINA",
+        "children": [
+            {
+                "name": "MEDICINA",
+                "size": 750
+            },
+            {
+                "name": "ICB",
+                "size": 234
+            }
+        ]
+    },
+    {
+        "name": "FONOAUDIOLOGIA",
+        "children": [
+            {
+                "name": "FAFICH",
+                "size": 77
+            },
+            {
+                "name": "EEFFTO",
+                "size": 22
+            },
+            {
+                "name": "MEDICINA",
+                "size": 628
+            },
+            {
+                "name": "ICB",
+                "size": 130
+            },
+            {
+                "name": "ODONTOLOGIA",
+                "size": 29
+            },
+            {
+                "name": "REUNI",
+                "size": 25
+            },
+            {
+                "name": "MUSICA",
+                "size": 12
+            },
+            {
+                "name": "LETRAS",
+                "size": 42
+            },
+            {
+                "name": "ICEX",
+                "size": 16
+            }
+        ]
+    },
+    {
+        "name": "ODONTOLOGIA",
+        "children": [
+            {
+                "name": "ICB",
+                "size": 274
+            },
+            {
+                "name": "ODONTOLOGIA",
+                "size": 716
+            }
+        ]
+    },
+    {
+        "name": "CIENCIAS BIOLOGICAS/DIURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 101
+            },
+            {
+                "name": "ICB",
+                "size": 772
+            },
+            {
+                "name": "IGC",
+                "size": 21
+            },
+            {
+                "name": "REUNI",
+                "size": 11
+            },
+            {
+                "name": "ICEX",
+                "size": 67
+            }
+        ]
+    },
+    {
+        "name": "CIENCIAS BIOLOGICAS/NOTURNO",
+        "children": [
+            {
+                "name": "FAE",
+                "size": 232
+            },
+            {
+                "name": "ICB",
+                "size": 632
+            },
+            {
+                "name": "IGC",
+                "size": 20
+            },
+            {
+                "name": "REUNI",
+                "size": 20
+            },
+            {
+                "name": "ICEX",
+                "size": 64
+            }
+        ]
+    },
+    {
+        "name": "AGRONOMIA",
+        "children": [
+            {
+                "name": "ICA",
+                "size": 996
+            }
+        ]
+    },
+    {
+        "name": "ZOOTECNIA",
+        "children": [
+            {
+                "name": "ICA",
+                "size": 998
+            }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+[
+    {
+        "curso": "ADMINISTRACAO/DIURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "ADMINISTRACAO/NOTURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "CIENCIAS CONTABEIS/NOTURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "CIENCIAS ECONOMICAS",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "DIREITO/DIURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "DIREITO"
+    },
+    {
+        "curso": "DIREITO/NOTURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "DIREITO"
+    },
+    {
+        "curso": "BIBLIOTECONOMIA/DIURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "ECI"
+    },
+    {
+        "curso": "BIBLIOTECONOMIA/NOTURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "ECI"
+    },
+    {
+        "curso": "CIENCIAS SOCIAIS",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "COMUNICACAO SOCIAL/DIURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "FILOSOFIA",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "HISTORIA/DIURNO",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "HISTORIA/NOTURNO",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "PSICOLOGIA",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "LETRAS/DIURNO",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "LETRAS"
+    },
+    {
+        "curso": "LETRAS/NOTURNO",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "LETRAS"
+    },
+    {
+        "curso": "PEDAGOGIA/DIURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAE"
+    },
+    {
+        "curso": "PEDAGOGIA/NOTURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAE"
+    },
+    {
+        "curso": "ARTES VISUAIS",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "BELAS ARTES"
+    },
+    {
+        "curso": "TEATRO",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "BELAS ARTES"
+    },
+    {
+        "curso": "MUSICA/DIURNO",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "MUSICA"
+    },
+    {
+        "curso": "GEOGRAFIA/DIURNO",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "GEOGRAFIA/NOTURNO",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "GEOLOGIA",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "TURISMO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "ARQUITETURA E URBANISMO/DIURNO",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "ARQUITETURA"
+    },
+    {
+        "curso": "CIENCIA DA COMPUTACAO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "SISTEMAS DE INFORMACAO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "CIENCIAS ATUARIAIS",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "ESTATISTICA",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "FISICA/DIURNO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "FISICA/NOTURNO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA/DIURNO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA/NOTURNO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA COMPUTACIONAL",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "QUIMICA/DIURNO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "QUIMICA/NOTURNO",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "ENGENHARIA CIVIL",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENG. CONTROLE AUTOMACAO/DIURNO",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA DE MINAS",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA DE PRODUCAO",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA ELETRICA",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA MECANICA-DIURNO",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA MECANICA-NOTURNO",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA METALURGICA",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA QUIMICA",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "FARMACIA-Diurno",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "FARMACIA"
+    },
+    {
+        "curso": "MEDICINA VETERINARIA",
+        "area": "CIENCIAS AGRARIAS",
+        "unidade": "VETERINARIA"
+    },
+    {
+        "curso": "EDUCACAO FISICA",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "FISIOTERAPIA",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "TERAPIA OCUPACIONAL",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "ENFERMAGEM",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "ENFERMAGEM"
+    },
+    {
+        "curso": "NUTRICAO",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "ENFERMAGEM"
+    },
+    {
+        "curso": "MEDICINA",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "MEDICINA"
+    },
+    {
+        "curso": "FONOAUDIOLOGIA",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "MEDICINA"
+    },
+    {
+        "curso": "ODONTOLOGIA",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "ODONTOLOGIA"
+    },
+    {
+        "curso": "CIENCIAS BIOLOGICAS/DIURNO",
+        "area": "CIENCIAS BIOLOGICAS",
+        "unidade": "ICB"
+    },
+    {
+        "curso": "CIENCIAS BIOLOGICAS/NOTURNO",
+        "area": "CIENCIAS BIOLOGICAS",
+        "unidade": "ICB"
+    },
+    {
+        "curso": "AGRONOMIA",
+        "area": "CIENCIAS AGRARIAS",
+        "unidade": "ICA"
+    },
+    {
+        "curso": "ZOOTECNIA",
+        "area": "CIENCIAS AGRARIAS",
+        "unidade": "ICA"
+    }
+]
