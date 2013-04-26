@@ -83,9 +83,11 @@ function mouseover() {
       .style("opacity", 1);
  }
 
-function mousemove() {
+function mousemove(d) {
    // Posição relativa do div deve ser alterada em (-160,-80), pois todos os elementos no svg sofreram essa alteração (no .css)
-   tip.text(d3.event.pageX + ", " + d3.event.pageY)
+   // tip.text(d3.event.pageX + ", " + d3.event.pageY)
+   tip
+      .text(d.name)
       .style("left", (d3.event.pageX - 240) + "px")
       .style("top", (d3.event.pageY - 110) + "px");
 }
@@ -108,7 +110,7 @@ function mouseout() {
       .text(function(d) { return d.name; })
       .on("click", function(d) { return zoom(node == d ? root : d); })
       .on("mouseover", mouseover)
-      .on("mousemove", function(d, i) { return mousemove(d, i)})
+      .on("mousemove", function(d) { return mousemove(d)})
       .on("mouseout", mouseout);
                
   vis.selectAll("text")
