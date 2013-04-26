@@ -73,29 +73,25 @@ d3.json("json/porCurso.json", function(data) {
   }   
 
 // Tooltip em D3 //	  
-var div = d3.select("body").append("div")
+var tip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 1e-6);
 
 function mouseover() {
-  div.transition()
+  tip.transition()
       .duration(500)
       .style("opacity", 1);
-      
-/*  div.html(
-     d3.select(this).attr("text", "ola")
-  );
-*/}
+}
 
 function mousemove() {
-  div
-      .text(d3.event.pageX + ", " + d3.event.pageY)
-      .style("left", (d3.event.pageX - 34) + "px")
-      .style("top", (d3.event.pageY - 12) + "px");
+   // Posição relativa do div deve ser alterada em (-160,-80), pois todos os elementos no svg sofreram essa alteração (no .css)
+   tip.text(d3.event.pageX + ", " + d3.event.pageY)
+      .style("left", (d3.event.pageX - 240) + "px")
+      .style("top", (d3.event.pageY - 110) + "px");
 }
 
 function mouseout() {
-  div.transition()
+  tip.transition()
       .duration(500)
       .style("opacity", 1e-6);
 }
