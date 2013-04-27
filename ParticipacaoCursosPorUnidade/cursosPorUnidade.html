@@ -10,6 +10,10 @@
     <script type="text/javascript" src="js/d3_002.js"></script>
     <script type="text/javascript">
 
+  /**************************************************/
+ /****************** Var's *************************/
+/**************************************************/	
+
 var w = 1280,
     h = 950,
     r = 900,
@@ -22,6 +26,7 @@ var pack = d3.layout.pack()
     .size([r, r])
     .value(function(d) { return d.size; })
 
+/* Visualization area */
 var vis = d3.select("body").insert("svg:svg", "h2")
     .attr("width", w)
     .attr("height", h)
@@ -29,6 +34,11 @@ var vis = d3.select("body").insert("svg:svg", "h2")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
 var rows;
+
+
+  /**************************************************/
+ /****************** Data processing ***************/
+/**************************************************/	
 
 d3.json("json/relacaoCursoUnidadeAreaConhecimento.json", function(data){
 	rows = data;
@@ -72,7 +82,10 @@ d3.json("json/porCurso.json", function(data) {
 	     else {return d3.hsl(colorCategoryGroup(retornaUnidade(group))).brighter(brightrange(-shift));}             
   }   
 
-// Tooltip em D3 //	  
+
+  /**************************************************/
+ /****************** tooltip ***********************/
+/**************************************************/	  
 var tip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 1e-6);
@@ -97,7 +110,9 @@ function mouseout() {
       .style("opacity", 1e-6);
 }
 
-       
+  /**************************************************/
+ /****************** Draw data *********************/
+/**************************************************/	       
   vis.selectAll("circle")
       .data(nodes)
     .enter().append("svg:circle")
