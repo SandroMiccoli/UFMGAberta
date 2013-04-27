@@ -124,8 +124,9 @@ function mouseout() {
       .attr("fill",function(d) { return color(d.name,50);})
       .text(function(d) { return d.name; })
       .on("click", function(d) { return zoom(node == d ? root : d); })
+      .filter(function(d) { return d.parent; })
       .on("mouseover", mouseover)
-      .on("mousemove", function(d) { return mousemove(d)})
+      .on("mousemove", function(d) { return mousemove(d); })
       .on("mouseout", mouseout);
                
   vis.selectAll("text")
