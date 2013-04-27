@@ -969,19 +969,6 @@
         ]
     },
     {
-        "name": "ICA",
-        "children": [
-            {
-                "name": "AGRONOMIA",
-                "size": 996
-            },
-            {
-                "name": "ZOOTECNIA",
-                "size": 998
-            }
-        ]
-    },
-    {
         "name": "REUNI",
         "children": [
             {

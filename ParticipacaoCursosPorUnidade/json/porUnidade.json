@@ -1282,24 +1282,6 @@
                 "size": 64
             }
         ]
-    },
-    {
-        "name": "AGRONOMIA",
-        "children": [
-            {
-                "name": "ICA",
-                "size": 996
-            }
-        ]
-    },
-    {
-        "name": "ZOOTECNIA",
-        "children": [
-            {
-                "name": "ICA",
-                "size": 998
-            }
-        ]
     }
   ]
 }

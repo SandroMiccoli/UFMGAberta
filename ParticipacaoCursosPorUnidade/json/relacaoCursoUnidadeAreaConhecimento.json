@@ -288,15 +288,5 @@
         "curso": "CIENCIAS BIOLOGICAS/NOTURNO",
         "area": "CIENCIAS BIOLOGICAS",
         "unidade": "ICB"
-    },
-    {
-        "curso": "AGRONOMIA",
-        "area": "CIENCIAS AGRARIAS",
-        "unidade": "ICA"
-    },
-    {
-        "curso": "ZOOTECNIA",
-        "area": "CIENCIAS AGRARIAS",
-        "unidade": "ICA"
     }
 ]
