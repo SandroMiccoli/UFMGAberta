@@ -101,7 +101,7 @@ function mousemove(d) {
    // Posição relativa do div deve ser alterada em (-160,-80), pois todos os elementos no svg sofreram essa alteração (no .css)
    tip
       .text(d.name)
-      .style("left", d.x + d.r + 37 + "px")
+      .style("left", d.x + d.r + 37.5 + "px")
       .style("top", d.y - 70 + "px")
 }
 

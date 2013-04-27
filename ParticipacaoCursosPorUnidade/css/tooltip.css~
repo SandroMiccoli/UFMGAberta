@@ -1,8 +1,7 @@
-/* base CSS element */
 .tooltip {
 	position: relative;
 	background: #eee;
-	border: 1.5px solid #ccc;
+	border: 1px solid #ccc;
 	padding: 10px;
 	width: 100px;
 	font: 10px sans-serif;
@@ -11,12 +10,11 @@
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* arrows - :before and :after */
 .tooltip:before {
 	position: absolute;
 	display: inline-block;
 	border-top: 7px solid transparent;
-	border-right: 7px solid #eee;
+	border-right: 7px solid #000;
 	border-bottom: 7px solid transparent;
 	border-right-color: rgba(0, 0, 0, 0.2);
 	left: -7px;
