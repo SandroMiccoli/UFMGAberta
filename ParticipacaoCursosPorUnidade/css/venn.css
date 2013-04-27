@@ -28,5 +28,5 @@ circle.parent:hover {
 }
 
 circle.child {
-  pointer-events: none;
+/*  pointer-events: none;*/
 }

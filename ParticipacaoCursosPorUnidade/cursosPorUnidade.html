@@ -114,7 +114,7 @@ function mouseout() {
   /**************************************************/
  /****************** Draw data *********************/
 /**************************************************/	       
-  vis.selectAll("circle")
+var circles = vis.selectAll("circle")
       .data(nodes)
     .enter().append("svg:circle")
       .attr("class", function(d) { return d.children ? "parent" : "child"; })
@@ -123,12 +123,15 @@ function mouseout() {
       .attr("r", function(d) { return d.r; })
       .attr("fill",function(d) { return color(d.name,50);})
       .text(function(d) { return d.name; })
-      .on("click", function(d) { return zoom(node == d ? root : d); })
-      .filter(function(d) { return d.parent; })
+      //se tem filho, zoom nele. Se não, zoom no pai dele. Serve para não dar zoom nas folhas.
+      .on("click", function(d) { return d.children ? zoom(node == d ? root : d) : zoom(node == d.parent ? root : d.parent)});
+
+  circles
+      .filter(function(d) { return !d.children; })
       .on("mouseover", mouseover)
       .on("mousemove", function(d) { return mousemove(d); })
       .on("mouseout", mouseout);
-               
+
   vis.selectAll("text")
       .data(nodes)
     .enter().append("svg:text")
