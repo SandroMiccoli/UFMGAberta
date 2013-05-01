@@ -1,0 +1,60 @@
+ADMINISTRACAO/DIURNO,FACE,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+ADMINISTRACAO/NOTURNO,FACE,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+CIENCIAS CONTABEIS/NOTURNO,FACE,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+CIENCIAS ECONOMICAS,FACE,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+DIREITO/DIURNO,DIREITO,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+DIREITO/NOTURNO,DIREITO,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+BIBLIOTECONOMIA/DIURNO,ECI,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+BIBLIOTECONOMIA/NOTURNO,ECI,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+CIENCIAS SOCIAIS,FAFICH,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+COMUNICACAO SOCIAL/DIURNO,FAFICH,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+FILOSOFIA,FAFICH,CIENCIAS HUMANAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+HISTORIA/DIURNO,FAFICH,CIENCIAS HUMANAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+HISTORIA/NOTURNO,FAFICH,CIENCIAS HUMANAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+PSICOLOGIA,FAFICH,CIENCIAS HUMANAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+LETRAS/DIURNO,LETRAS,"LINGUISTICA, LETRAS E ARTES","Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+LETRAS/NOTURNO,LETRAS,"LINGUISTICA, LETRAS E ARTES","Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+PEDAGOGIA/DIURNO,FAE,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+PEDAGOGIA/NOTURNO,FAE,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+ARTES VISUAIS,BELAS ARTES,"LINGUISTICA, LETRAS E ARTES","Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+TEATRO,BELAS ARTES,"LINGUISTICA, LETRAS E ARTES","Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+MUSICA/DIURNO,MUSICA,"LINGUISTICA, LETRAS E ARTES","Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+GEOGRAFIA/DIURNO,IGC,CIENCIAS HUMANAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+GEOGRAFIA/NOTURNO,IGC,CIENCIAS HUMANAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+GEOLOGIA,IGC,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+TURISMO,IGC,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+ARQUITETURA E URBANISMO/DIURNO,ARQUITETURA,CIENCIAS SOCIAIS APLICADAS,"Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes"
+CIENCIA DA COMPUTACAO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+SISTEMAS DE INFORMACAO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+CIENCIAS ATUARIAIS,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ESTATISTICA,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+FISICA/DIURNO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+FISICA/NOTURNO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+MATEMATICA/DIURNO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+MATEMATICA/NOTURNO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+MATEMATICA COMPUTACIONAL,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+QUIMICA/DIURNO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+QUIMICA/NOTURNO,ICEX,CIENCIAS EXATAS E DA TERRA,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA CIVIL,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENG. CONTROLE AUTOMACAO/DIURNO,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA DE MINAS,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA DE PRODUCAO,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA ELETRICA,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA MECANICA-DIURNO,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA MECANICA-NOTURNO,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA METALURGICA,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ENGENHARIA QUIMICA,ENGENHARIA,ENGENHARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+FARMACIA-Diurno,FARMACIA,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+MEDICINA VETERINARIA,VETERINARIA,CIENCIAS AGRARIAS,Grande Area de Ciencias Biologicas e Saude
+EDUCACAO FISICA,EEFFTO,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+FISIOTERAPIA,EEFFTO,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+TERAPIA OCUPACIONAL,EEFFTO,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+ENFERMAGEM,ENFERMAGEM,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+NUTRICAO,ENFERMAGEM,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+MEDICINA,MEDICINA,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+FONOAUDIOLOGIA,MEDICINA,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+ODONTOLOGIA,ODONTOLOGIA,CIENCIAS DA SAUDE,Grande Area de Ciencias Biologicas e Saude
+CIENCIAS BIOLOGICAS/DIURNO,ICB,CIENCIAS BIOLOGICAS,Grande Area de Ciencias Biologicas e Saude
+CIENCIAS BIOLOGICAS/NOTURNO,ICB,CIENCIAS BIOLOGICAS,Grande Area de Ciencias Biologicas e Saude
+AGRONOMIA,ICA,CIENCIAS AGRARIAS,"Grande Area de Ciencia Exatas, da Terra, e Engenharias"
+ZOOTECNIA,ICA,CIENCIAS AGRARIAS,Grande Area de Ciencias Biologicas e Saude
