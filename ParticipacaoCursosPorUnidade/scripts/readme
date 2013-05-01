@@ -3,7 +3,7 @@ Scripts de conversão de CSV para JSON
 
 Para cada script, é necessário adicionar (no .py) as colunas que indicam o cabeçalho dos campos.
 
-O resultado imprimido pelo script deve ser validado na página http://jsonlint.com para que não ocorra nenhum tipo de anormalidade.
+O resultado impresso pelo script deve ser validado na página http://jsonlint.com para que não ocorra nenhum tipo de anormalidade.
 
 O python imprime os dicionários com aspas simples, é necessário alterar todas no documento por aspas duplas.
 
