@@ -145,7 +145,7 @@ var circles = vis.selectAll("circle")
       .on("click", function(d) { return d.children ? zoom(node == d ? root : d) : zoom(node == d.parent ? root : d.parent)});
 
   circles
-      .filter(function(d) { return !d.children; })
+      .filter(function(d) { return d.parent; })
       .on("mouseover", mouseover)
       .on("mousemove", function(d) { return mousemove(d); })
       .on("mouseout", mouseout);
