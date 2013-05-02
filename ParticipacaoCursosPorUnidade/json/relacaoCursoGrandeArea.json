@@ -1,0 +1,362 @@
+[
+    {
+        "curso": "ADMINISTRACAO/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "ADMINISTRACAO/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "CIENCIAS CONTABEIS/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "CIENCIAS ECONOMICAS",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FACE"
+    },
+    {
+        "curso": "DIREITO/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "DIREITO"
+    },
+    {
+        "curso": "DIREITO/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "DIREITO"
+    },
+    {
+        "curso": "BIBLIOTECONOMIA/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "ECI"
+    },
+    {
+        "curso": "BIBLIOTECONOMIA/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "ECI"
+    },
+    {
+        "curso": "CIENCIAS SOCIAIS",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "COMUNICACAO SOCIAL/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "FILOSOFIA",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "HISTORIA/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "HISTORIA/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "PSICOLOGIA",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "FAFICH"
+    },
+    {
+        "curso": "LETRAS/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "LETRAS"
+    },
+    {
+        "curso": "LETRAS/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "LETRAS"
+    },
+    {
+        "curso": "PEDAGOGIA/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAE"
+    },
+    {
+        "curso": "PEDAGOGIA/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "FAE"
+    },
+    {
+        "curso": "ARTES VISUAIS",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "BELAS ARTES"
+    },
+    {
+        "curso": "TEATRO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "BELAS ARTES"
+    },
+    {
+        "curso": "MUSICA/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "LINGUISTICA, LETRAS E ARTES",
+        "unidade": "MUSICA"
+    },
+    {
+        "curso": "GEOGRAFIA/DIURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "GEOGRAFIA/NOTURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS HUMANAS",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "GEOLOGIA",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "TURISMO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "IGC"
+    },
+    {
+        "curso": "ARQUITETURA E URBANISMO/DIURNO",
+        "grandearea": "Grande Area de Ciencias Humanas, Ciencias Sociais Aplicadas, Letras e Artes",
+        "area": "CIENCIAS SOCIAIS APLICADAS",
+        "unidade": "ARQUITETURA"
+    },
+    {
+        "curso": "CIENCIA DA COMPUTACAO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "SISTEMAS DE INFORMACAO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "CIENCIAS ATUARIAIS",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "ESTATISTICA",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "FISICA/DIURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "FISICA/NOTURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA/DIURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA/NOTURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "MATEMATICA COMPUTACIONAL",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "QUIMICA/DIURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "QUIMICA/NOTURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS EXATAS E DA TERRA",
+        "unidade": "ICEX"
+    },
+    {
+        "curso": "ENGENHARIA CIVIL",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENG. CONTROLE AUTOMACAO/DIURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA DE MINAS",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA DE PRODUCAO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA ELETRICA",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA MECANICA-DIURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA MECANICA-NOTURNO",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA METALURGICA",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "ENGENHARIA QUIMICA",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "ENGENHARIAS",
+        "unidade": "ENGENHARIA"
+    },
+    {
+        "curso": "FARMACIA-Diurno",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "FARMACIA"
+    },
+    {
+        "curso": "MEDICINA VETERINARIA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS AGRARIAS",
+        "unidade": "VETERINARIA"
+    },
+    {
+        "curso": "EDUCACAO FISICA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "FISIOTERAPIA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "TERAPIA OCUPACIONAL",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "EEFFTO"
+    },
+    {
+        "curso": "ENFERMAGEM",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "ENFERMAGEM"
+    },
+    {
+        "curso": "NUTRICAO",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "ENFERMAGEM"
+    },
+    {
+        "curso": "MEDICINA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "MEDICINA"
+    },
+    {
+        "curso": "FONOAUDIOLOGIA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "MEDICINA"
+    },
+    {
+        "curso": "ODONTOLOGIA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS DA SAUDE",
+        "unidade": "ODONTOLOGIA"
+    },
+    {
+        "curso": "CIENCIAS BIOLOGICAS/DIURNO",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS BIOLOGICAS",
+        "unidade": "ICB"
+    },
+    {
+        "curso": "CIENCIAS BIOLOGICAS/NOTURNO",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS BIOLOGICAS",
+        "unidade": "ICB"
+    },
+    {
+        "curso": "AGRONOMIA",
+        "grandearea": "Grande Area de Ciencia Exatas, da Terra, e Engenharias",
+        "area": "CIENCIAS AGRARIAS",
+        "unidade": "ICA"
+    },
+    {
+        "curso": "ZOOTECNIA",
+        "grandearea": "Grande Area de Ciencias Biologicas e Saude",
+        "area": "CIENCIAS AGRARIAS",
+        "unidade": "ICA"
+    }
+]
