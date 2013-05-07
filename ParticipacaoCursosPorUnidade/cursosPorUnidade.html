@@ -3,7 +3,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/venn.css">
-    <link type="text/css" rel="stylesheet" href="css/tooltip.css">
+    <link type="text/css" rel="stylesheet" href="css/label.css">
   </head>
   <body>
    
@@ -22,6 +22,9 @@ var w = 1280,
     y = d3.scale.linear().range([0, r]),
     node,
     root;
+    
+var labelW = w * 18/100
+    labelH = h * 25/100;
 
 var pack = d3.layout.pack()
     .size([r, r])
@@ -132,7 +135,8 @@ function mouseout() {
 
   /**************************************************/
  /****************** Draw data *********************/
-/**************************************************/	       
+/**************************************************/	  
+     
 var circles = vis.selectAll("circle")
       .data(nodes)
     .enter().append("svg:circle")
@@ -165,6 +169,31 @@ var circles = vis.selectAll("circle")
   d3.select(window).on("click", function() { zoom(root); });
 });
 
+  /**************************************************/
+ /****************** Label *************************/
+/**************************************************/	
+
+/*
+O IDEAL seria criar um grupo para label.
+PQ NÃO FUNCIONA????????????????????????????????????????????????????????????????
+
+var label = d3.select("body").selectAll("svg")
+  .append("g")
+    .attr("class", "label");
+*/
+  
+d3.select("body").selectAll("svg").append("svg:rect")
+    .attr("class", "label_background")
+    .attr("x", w - labelW - 10)
+    .attr("y", 10)
+    .attr("width", labelW)
+    .attr("height", labelH);
+
+
+
+  /**************************************************/
+ /****************** Last functions ****************/
+/**************************************************/	
 function zoom(d, i) {
   var k = r / d.r / 2;
   x.domain([d.x - d.r, d.x + d.r]);
@@ -182,11 +211,17 @@ function zoom(d, i) {
       .attr("x", function(d) { return x(d.x); })
       .attr("y", function(d) { return y(d.y); })
       .style("opacity", function(d) { return k * d.r > 35 ? 1 : 0; });
+      
+  /* Tooltip */
+  d3.selectAll("div")
+      .style("left", x(d.x) + "px")
+      .style("top", y(d.y) + "px");
+
 
   node = d;
   d3.event.stopPropagation();
 }
-       
+    
     </script>
   
 
