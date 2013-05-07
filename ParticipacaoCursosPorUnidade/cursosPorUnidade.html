@@ -29,12 +29,13 @@ var labelW = w * 18/100
 var pack = d3.layout.pack()
     .size([r, r])
     .value(function(d) { return d.size; })
-
+	
 /* Visualization area */
-var vis = d3.select("body").insert("svg:svg", "h2")
-    .attr("width", w)
-    .attr("height", h)
-  .append("svg:g")
+var canvas = d3.select("body").insert("svg:svg", "h2")
+				.attr("viewBox", "0 0 " + w + " " + h )
+				.attr("preserveAspectRatio", "xMidYMid meet");
+ 
+var vis = canvas.append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
 var rows;
@@ -182,7 +183,7 @@ var label = d3.select("body").selectAll("svg")
     .attr("class", "label");
 */
   
-var label = d3.select("body").selectAll("svg").append("svg:rect")
+var label = d3.select("body").selectAll("svg").append("svg:rect")    
     .attr("class", "label_background")
     .attr("x", w - labelW - 10)
     .attr("y", 10)
