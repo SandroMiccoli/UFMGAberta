@@ -182,12 +182,20 @@ var label = d3.select("body").selectAll("svg")
     .attr("class", "label");
 */
   
-d3.select("body").selectAll("svg").append("svg:rect")
+var label = d3.select("body").selectAll("svg").append("svg:rect")
     .attr("class", "label_background")
     .attr("x", w - labelW - 10)
     .attr("y", 10)
     .attr("width", labelW)
     .attr("height", labelH);
+    
+label.append("svg:text")
+    .attr("x", w - labelW - 10)
+    .attr("y", 10)
+    .attr("dy", "-.85em")
+    .attr("text-anchor", "middle")
+    .style("opacity", "1")
+    .text("teste");
 
 
 
