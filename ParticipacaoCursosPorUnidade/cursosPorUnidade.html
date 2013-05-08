@@ -44,6 +44,7 @@ var vis = canvas.append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
 var rows;
+var nest;
 
 
   /**************************************************/
@@ -52,6 +53,11 @@ var rows;
 
 d3.json("json/relacaoCursoGrandeArea.json", function(data){
 	rows = data;
+	
+// Conjunto de "grandearea"
+nest = d3.nest()
+    .key(function(d) { return d.grandearea; })
+    .entries(rows);
 });
 
 function retornaUnidade(curso){
@@ -80,7 +86,6 @@ function retornaGrandeArea(curso){
 	  }
 	}
 }
-
   
 d3.json("json/porCurso.json", function(data) {
   node = root = data;
@@ -189,17 +194,19 @@ label.append("svg:text")
     .attr("text-anchor", "middle")
     .style("opacity", "1")
     .text("LEGENDA");
-    
+
 label.selectAll(".label_circle")
-    .data(nodes)
+    .data(nest)
   .enter().append("svg:circle")
-// filtrar para obter apenas as 3 grandes áreas
-//    .filter(function(d) { return })
     .attr("class", "label_circle")    
     .attr("cx", w - labelW + 20)
-    .attr("cy", 90)
+    .attr("cy", function(d, i) { return i*50 + 100; })
     .attr("r", 15)
-    .attr("fill",function(d) { return colorGrandeArea(d.name,50);});
+    .text(function(d) { return d.key; })
+    .attr("fill",function(d) { return colorGrandeArea(d.values[0].curso,50);});
+    
+
+
 });
     
   /**************************************************/
