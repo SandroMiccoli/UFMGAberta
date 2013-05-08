@@ -3,7 +3,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/venn.css">
-    <link type="text/css" rel="stylesheet" href="css/tooltip.css">
+    <link type="text/css" rel="stylesheet" href="css/tipsy.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
   </head>
   <body>
    
@@ -102,32 +104,6 @@ d3.json("json/porUnidade.json", function(data) {
        else {return d3.hsl(colorCategoryGroup(retornaGrandeArea(group))).brighter(brightrange(-shift));}             
   }   
   
-  /**************************************************/
- /****************** tooltip ***********************/
-/**************************************************/	  
-var tip = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 1e-6);
-
-function mouseover() {
-  tip.transition()
-      .duration(500)
-      .style("opacity", 1);
- }
-
-function mousemove(d) {
-   // Posição relativa do div deve ser alterada em (-160,-80), pois todos os elementos no svg sofreram essa alteração (no .css)
-   tip
-      .text(d.name)
-      .style("left", d.x + d.r + 37.5 + "px")
-      .style("top", d.y - 70 + "px");
-}
-
-function mouseout() {
-  tip.transition()
-      .duration(500)
-      .style("opacity", 1e-6);
-}
 
   /**************************************************/
  /****************** Draw data *********************/
@@ -140,15 +116,28 @@ var circles = vis.selectAll("circle")
       .attr("cy", function(d) { return d.y; })
       .attr("r", function(d) { return d.r; })
       .attr("fill",function(d) { return colorGrandeArea(d.name,50);})
-      .text(function(d) { return d.name; })
+      .attr("name", function(d) { return d.name; })
       //se tem filho, zoom nele. Se não, zoom no pai dele. Serve para não dar zoom nas folhas.
       .on("click", function(d) { return d.children ? zoom(node == d ? root : d) : zoom(node == d.parent ? root : d.parent)});
 
   circles
-      .filter(function(d) { return d.parent; })
-      .on("mouseover", mouseover)
-      .on("mousemove", function(d) { return mousemove(d); })
-      .on("mouseout", mouseout);
+      .filter(function(d) { return d.parent; });
+      
+   //   
+   // tipsy.js
+   //   
+   // jquery.tipsy.js foi alterado (linha 59) para corrigir posição do tipsy.
+   // todo: remover alteração no jquery.tipsy.js e utilizar isso: $( '.tipsy' ).css( 'top', '-=80px' );
+   //
+	$('svg circle')
+		.tipsy({ 
+	        gravity: 'w', 
+	        html: true, 
+	        title: function() {
+			  		return this.getAttribute('name');
+	        }
+	        
+	      });
 
   vis.selectAll("text")
       .data(nodes)
