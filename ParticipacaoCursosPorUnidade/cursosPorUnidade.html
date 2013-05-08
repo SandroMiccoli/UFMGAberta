@@ -35,10 +35,12 @@ var pack = d3.layout.pack()
 	
 /* Visualization area */
 var canvas = d3.select("body").insert("svg:svg", "h2")
+    .attr("class", "canvas")
 				.attr("viewBox", "0 0 " + w + " " + h )
 				.attr("preserveAspectRatio", "xMidYMid meet");
  
 var vis = canvas.append("svg:g")
+    .attr("class", "vis")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
 var rows;
@@ -165,22 +167,15 @@ var circles = vis.selectAll("circle")
       .text(function(d) { return d.name; });
 
   d3.select(window).on("click", function() { zoom(root); });
-});
-
+  
   /**************************************************/
  /****************** Label *************************/
 /**************************************************/	
-
-/*
-O IDEAL seria criar um grupo para label.
-PQ NÃO FUNCIONA????????????????????????????????????????????????????????????????
-
-var label = d3.select("body").selectAll("svg")
-  .append("g")
+var label = canvas
+  .append("svg:g")
     .attr("class", "label");
-*/
-  
-var label = d3.select("body").selectAll("svg").append("svg:rect")    
+
+label.append("svg:rect")    
     .attr("class", "label_background")
     .attr("x", w - labelW - 10)
     .attr("y", 10)
@@ -188,17 +183,27 @@ var label = d3.select("body").selectAll("svg").append("svg:rect")
     .attr("height", labelH);
     
 label.append("svg:text")
-    .attr("x", w - labelW - 10)
-    .attr("y", 10)
-    .attr("dy", "-.85em")
+    .attr("class", "label_title")
+    .attr("x", w - labelW + 100)
+    .attr("y", 45)
     .attr("text-anchor", "middle")
     .style("opacity", "1")
-    .text("teste");
-
-
-
+    .text("LEGENDA");
+    
+label.selectAll(".label_circle")
+    .data(nodes)
+  .enter().append("svg:circle")
+// filtrar para obter apenas as 3 grandes áreas
+//    .filter(function(d) { return })
+    .attr("class", "label_circle")    
+    .attr("cx", w - labelW + 20)
+    .attr("cy", 90)
+    .attr("r", 15)
+    .attr("fill",function(d) { return colorGrandeArea(d.name,50);});
+});
+    
   /**************************************************/
- /****************** Last functions ****************/
+ /****************** Zoom **************************/
 /**************************************************/	
 function zoom(d, i) {
   var k = r / d.r / 2;
