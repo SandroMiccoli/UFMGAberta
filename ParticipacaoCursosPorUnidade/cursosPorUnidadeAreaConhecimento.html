@@ -30,10 +30,11 @@ var pack = d3.layout.pack()
     .value(function(d) { return d.size; })
 
 /* Visualization area */
-var vis = d3.select("body").insert("svg:svg", "h2")
-    .attr("width", w)
-    .attr("height", h)
-  .append("svg:g")
+var canvas = d3.select("body").insert("svg:svg", "h2")
+				.attr("viewBox", "0 0 " + w + " " + h )
+				.attr("preserveAspectRatio", "xMidYMid meet");
+ 
+var vis = canvas.append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
 var rows;
