@@ -118,6 +118,7 @@ var circles = vis.selectAll("circle")
       .attr("r", function(d) { return d.r; })
       .attr("fill",function(d) { return colorGrandeArea(d.name,50);})
       .attr("name", function(d) { return d.name; })
+      .attr("size", function(d) { return d.size; })
       //se tem filho, zoom nele. Se não, zoom no pai dele. Serve para não dar zoom nas folhas.
       .on("click", function(d) { return d.children ? zoom(node == d ? root : d) : zoom(node == d.parent ? root : d.parent)});
 
@@ -135,7 +136,12 @@ var circles = vis.selectAll("circle")
 	        gravity: 'w', 
 	        html: true, 
 	        title: function() {
-			  		return this.getAttribute('name');
+					if (this.getAttribute('size')!=null){
+						var size = parseFloat(this.getAttribute('size')/1000*100).toFixed(2);
+						return this.getAttribute('name')+"<br><span style=font-size:14px; text-align: left;>Participação: "+size+"%</span>";
+					}
+					else
+						return this.getAttribute('name');
 	        }
 	        
 	      });
