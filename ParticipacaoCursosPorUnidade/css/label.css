@@ -9,9 +9,10 @@
 	}
 	
 .label_text, .label_circle {
-	 position: absolute;
+  position: absolute;
   left: 20px;
   top: 20px;	
+  pointer-events: auto;
 }
 
 .active {
