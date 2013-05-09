@@ -1,9 +1,15 @@
 .label_background {
-  fill: #1f77b4;
-  fill-opacity: .1;
-  stroke: steelblue;
+  fill: #eeeeee;
+  fill-opacity: 1;
+  stroke: #cccccc;
 }
 
 .label_title {
 	 font-size: 30px;
 	}
+	
+.label_text, .label_circle {
+	 position: absolute;
+  left: 20px;
+  top: 20px;	
+}

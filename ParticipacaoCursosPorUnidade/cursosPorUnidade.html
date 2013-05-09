@@ -26,8 +26,8 @@ var w = 1280,
     node,
     root;
     
-var labelW = w * 18/100
-    labelH = h * 25/100;
+var labelW = w * 15/100
+    labelH = h * 20/100;
 
 var pack = d3.layout.pack()
     .size([r, r])
@@ -56,7 +56,7 @@ d3.json("json/relacaoCursoGrandeArea.json", function(data){
 	
 // Conjunto de "grandearea"
 nest = d3.nest()
-    .key(function(d) { return d.grandearea; })
+    .key(function(d) { return d.apelido; })
     .entries(rows);
 });
 
@@ -89,7 +89,7 @@ function retornaGrandeArea(curso){
   
 d3.json("json/porCurso.json", function(data) {
   node = root = data;
-
+    
   var nodes = pack.nodes(root);  
 
   var colorCategoryGroup = d3.scale.category10();
@@ -179,33 +179,44 @@ var circles = vis.selectAll("circle")
 var label = canvas
   .append("svg:g")
     .attr("class", "label");
-
-label.append("svg:rect")    
-    .attr("class", "label_background")
-    .attr("x", w - labelW - 10)
-    .attr("y", 10)
-    .attr("width", labelW)
-    .attr("height", labelH);
-    
-label.append("svg:text")
+   
+/*label.append("svg:text")
     .attr("class", "label_title")
     .attr("x", w - labelW + 100)
     .attr("y", 45)
     .attr("text-anchor", "middle")
     .style("opacity", "1")
     .text("LEGENDA");
+*/
+
+label.append("svg:rect")    
+    .attr("class", "label_background")
+    .attr("x", -10)
+    .attr("y", 60)
+    .attr("width", labelW)
+    .attr("height", labelH);
+ 
 
 label.selectAll(".label_circle")
     .data(nest)
   .enter().append("svg:circle")
     .attr("class", "label_circle")    
-    .attr("cx", w - labelW + 20)
-    .attr("cy", function(d, i) { return i*50 + 100; })
+    .attr("cx", 20)
+    .attr("cy", function(d, i) { return i*55 + 100; })
     .attr("r", 15)
     .text(function(d) { return d.key; })
     .attr("fill",function(d) { return colorGrandeArea(d.values[0].curso,50);});
     
-
+label.selectAll(".label_text")
+    .data(nest)
+  .enter().append("svg:text")
+    .attr("class", "label_text")
+    .attr("x", 40)
+    .attr("y", function(d, i) { return i*56 + 108; })
+    .style("font-size", 30)
+    .style("top", "20px")
+    .style("left", "20px")
+    .text(function(d) { return d.key; });
 
 });
     
@@ -230,10 +241,6 @@ function zoom(d, i) {
       .attr("y", function(d) { return y(d.y); })
       .style("opacity", function(d) { return k * d.r > 35 ? 1 : 0; });
       
-  /* Tooltip */
-  d3.selectAll("div")
-      .style("left", x(d.x) + "px")
-      .style("top", y(d.y) + "px");
 
 
   node = d;
