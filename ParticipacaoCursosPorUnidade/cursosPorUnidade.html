@@ -86,6 +86,14 @@ function retornaGrandeArea(curso){
 	  }
 	}
 }
+function retornaApelido(curso){
+	for (var k in rows){
+     var current = rows[k];
+	  if (curso == current.curso){
+	    return current.apelido;
+	  }
+	}
+}
   
 d3.json("json/porCurso.json", function(data) {
   node = root = data;
@@ -194,7 +202,9 @@ label.append("svg:rect")
     .attr("x", -10)
     .attr("y", 60)
     .attr("width", labelW)
-    .attr("height", labelH);
+    .attr("height", labelH)
+    .attr("rx", 15)
+    .attr("rx", 15);
  
 
 label.selectAll(".label_circle")
@@ -218,6 +228,31 @@ label.selectAll(".label_text")
     .style("left", "20px")
     .text(function(d) { return d.key; });
 
+function mouseover(d) {
+
+label.selectAll(".label_circle")
+    .classed("active", function(p) { return p === d; })
+    .classed("inactive", function(p) { return p !== d; });
+
+vis.selectAll("circle")
+    .filter(function(d) { return !d.children; })
+    .classed("active", function(p) { return retornaApelido(p.name) === d.key; })
+    .classed("inactive", function(p) { return retornaApelido(p.name) !== d.key; });
+        
+}
+
+function mouseout() {
+
+label.selectAll(".active").classed("active", false);
+label.selectAll(".inactive").classed("inactive", false);
+
+vis.selectAll(".active").classed("active", false);
+vis.selectAll(".inactive").classed("inactive", false);
+}
+
+label.selectAll(".label_circle")
+    .on("mouseover", mouseover)
+    .on("mouseout", mouseout);
 });
     
   /**************************************************/

@@ -13,3 +13,11 @@
   left: 20px;
   top: 20px;	
 }
+
+.active {
+  opacity: 1;	
+}
+
+.inactive{
+  opacity: .5;	
+}
