@@ -3,6 +3,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/venn.css">
+    <link type="text/css" rel="stylesheet" href="css/label.css">
     <link type="text/css" rel="stylesheet" href="css/tipsy.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script> 
     <script type="text/javascript" src="js/jquery.tipsy.js"></script>
@@ -25,19 +26,25 @@ var w = 1280,
     node,
     root;
 
+var labelW = w * 15/100
+    labelH = h * 20/100;
+    
 var pack = d3.layout.pack()
     .size([r, r])
     .value(function(d) { return d.size; })
 
 /* Visualization area */
 var canvas = d3.select("body").insert("svg:svg", "h2")
+    .attr("class", "canvas")
 				.attr("viewBox", "0 0 " + w + " " + h )
 				.attr("preserveAspectRatio", "xMidYMid meet");
  
 var vis = canvas.append("svg:g")
+    .attr("class", "vis")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
 var rows;
+var nest;
 
 
   /**************************************************/
@@ -46,6 +53,11 @@ var rows;
 
 d3.json("json/relacaoCursoGrandeArea.json", function(data){
 	rows = data;
+	
+	// Conjunto de "grandearea"
+	nest = d3.nest()
+		.key(function(d) { return d.apelido; })
+		.entries(rows);
 });
 
 function retornaUnidade(curso){
@@ -71,6 +83,15 @@ function retornaGrandeArea(unidade){
      var current = rows[k];
 	  if (unidade == current.unidade){
 	    return current.grandearea;
+	  }
+	}
+}
+
+function retornaApelido(unidade){
+	for (var k in rows){
+     var current = rows[k];
+	  if (unidade == current.unidade){
+	    return current.apelido;
 	  }
 	}
 }
@@ -146,18 +167,98 @@ var circles = vis.selectAll("circle")
 	        
 	      });
 
+  var rScale = d3.scale.linear()
+  							  .domain([d3.min(nodes, function(d){if (d.parent) return d.name.length;}), d3.max(nodes, function(d){if (d.parent) return d.name.length;})])
+  							  .range([20,8])
+  
   vis.selectAll("text")
       .data(nodes)
     .enter().append("svg:text")
+  		.filter(function(d){return d.children;}) // Não mostra texto dos filhos
       .attr("class", function(d) { return d.children ? "parent" : "child"; })
       .attr("x", function(d) { return d.x; })
       .attr("y", function(d) { return d.y; })
       .attr("dy", "-.85em")
       .attr("text-anchor", "middle")
       .style("opacity", function(d) { return d.r > 60 ? 1 : 0; })
+      .style("font-size", function(d){return rScale(d.name.length);})
       .text(function(d) { return d.name; });
 
   d3.select(window).on("click", function() { zoom(root); });
+   
+  /**************************************************/
+ /****************** Label *************************/
+/**************************************************/	
+var label = canvas
+  .append("svg:g")
+    .attr("class", "label");
+   
+/*label.append("svg:text")
+    .attr("class", "label_title")
+    .attr("x", w - labelW + 100)
+    .attr("y", 45)
+    .attr("text-anchor", "middle")
+    .style("opacity", "1")
+    .text("LEGENDA");
+*/
+
+label.append("svg:rect")    
+    .attr("class", "label_background")
+    .attr("x", -10)
+    .attr("y", 60)
+    .attr("width", labelW)
+    .attr("height", labelH)
+    .attr("rx", 15)
+    .attr("rx", 15);
+ 
+
+label.selectAll(".label_circle")
+    .data(nest)
+  .enter().append("svg:circle")
+    .attr("class", "label_circle")    
+    .attr("cx", 20)
+    .attr("cy", function(d, i) { return i*55 + 100; })
+    .attr("r", 15)
+    .text(function(d) { return d.key; })
+    .attr("fill",function(d) { return colorGrandeArea(d.values[0].unidade,50);});
+    
+label.selectAll(".label_text")
+    .data(nest)
+  .enter().append("svg:text")
+    .attr("class", "label_text")
+    .attr("x", 40)
+    .attr("y", function(d, i) { return i*56 + 108; })
+    .style("font-size", 30)
+    .style("top", "20px")
+    .style("left", "20px")
+    .text(function(d) { return d.key; });
+
+function mouseover(d) {
+
+	label.selectAll(".label_circle")
+		.classed("active", function(p) { return p === d; })
+		.classed("inactive", function(p) { return p !== d; });
+
+	vis.selectAll("circle")
+		.filter(function(d) { return !d.children; })
+		.classed("active", function(p) { return retornaApelido(p.name) === d.key; })
+		.classed("inactive", function(p) { return retornaApelido(p.name) !== d.key; });
+        
+}
+
+function mouseout() {
+
+	label.selectAll(".active").classed("active", false);
+	label.selectAll(".inactive").classed("inactive", false);
+
+	vis.selectAll(".active").classed("active", false);
+	vis.selectAll(".inactive").classed("inactive", false);
+}
+
+label.selectAll(".label_circle")
+    .on("mouseover", mouseover)
+    .on("mouseout", mouseout);
+    
 });
 
 function zoom(d, i) {

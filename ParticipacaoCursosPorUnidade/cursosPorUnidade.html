@@ -54,10 +54,10 @@ var nest;
 d3.json("json/relacaoCursoGrandeArea.json", function(data){
 	rows = data;
 	
-// Conjunto de "grandearea"
-nest = d3.nest()
-    .key(function(d) { return d.apelido; })
-    .entries(rows);
+	// Conjunto de "grandearea"
+	nest = d3.nest()
+		.key(function(d) { return d.apelido; })
+		.entries(rows);
 });
 
 function retornaUnidade(curso){
@@ -168,6 +168,9 @@ var circles = vis.selectAll("circle")
 	        
 	      });
 
+  var rScale = d3.scale.linear()
+  							  .domain([d3.min(nodes, function(d){return d.size;}), d3.max(nodes, function(d){return d.size;})])
+  							  .range([8,20])
   vis.selectAll("text")
       .data(nodes)
     .enter().append("svg:text")
@@ -177,6 +180,7 @@ var circles = vis.selectAll("circle")
       .attr("dy", "-.85em")
       .attr("text-anchor", "middle")
       .style("opacity", function(d) { return d.r > 35 ? 1 : 0; })
+      .style("font-size", function(d){return rScale(d.size);})
       .text(function(d) { return d.name; });
 
   d3.select(window).on("click", function() { zoom(root); });
@@ -230,29 +234,30 @@ label.selectAll(".label_text")
 
 function mouseover(d) {
 
-label.selectAll(".label_circle")
-    .classed("active", function(p) { return p === d; })
-    .classed("inactive", function(p) { return p !== d; });
+	label.selectAll(".label_circle")
+		.classed("active", function(p) { return p === d; })
+		.classed("inactive", function(p) { return p !== d; });
 
-vis.selectAll("circle")
-    .filter(function(d) { return !d.children; })
-    .classed("active", function(p) { return retornaApelido(p.name) === d.key; })
-    .classed("inactive", function(p) { return retornaApelido(p.name) !== d.key; });
+	vis.selectAll("circle")
+		.filter(function(d) { return !d.children; })
+		.classed("active", function(p) { return retornaApelido(p.name) === d.key; })
+		.classed("inactive", function(p) { return retornaApelido(p.name) !== d.key; });
         
 }
 
 function mouseout() {
 
-label.selectAll(".active").classed("active", false);
-label.selectAll(".inactive").classed("inactive", false);
+	label.selectAll(".active").classed("active", false);
+	label.selectAll(".inactive").classed("inactive", false);
 
-vis.selectAll(".active").classed("active", false);
-vis.selectAll(".inactive").classed("inactive", false);
+	vis.selectAll(".active").classed("active", false);
+	vis.selectAll(".inactive").classed("inactive", false);
 }
 
 label.selectAll(".label_circle")
     .on("mouseover", mouseover)
     .on("mouseout", mouseout);
+    
 });
     
   /**************************************************/
