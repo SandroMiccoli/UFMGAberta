@@ -102,7 +102,7 @@ d3.json("json/porUnidade.json", function(data) {
   var nodes = pack.nodes(root);  
 
   var colorCategoryGroup = d3.scale.ordinal().domain(["Humanas","Exatas","Biologicas"])
-	    .range([ '#d62728', '#ff7f0e', '#2ca02c' ]);
+	    .range([ '#2ca02c','#ff7f0e', '#d62728',  '#1f77b4' ]);
 	
   var colorgroup = d3.scale.ordinal()
 	    .domain(d3.range(3))
@@ -183,7 +183,7 @@ var circles = vis.selectAll("circle")
       .attr("y", function(d) { return d.y; })
       .attr("dy", "-.85em")
       .attr("text-anchor", "middle")
-      .style("opacity", function(d) { return d.r > 60 ? 1 : 0; })
+      .style("opacity", function(d) { return d.r > 55 ? 1 : 0; })
       .style("font-size", function(d){return rScale(d.name.length);})
       .text(function(d) { return d.name; });
 
@@ -292,7 +292,7 @@ function zoom(d, i) {
   t.selectAll("text")
       .attr("x", function(d) { return x(d.x); })
       .attr("y", function(d) { return y(d.y); })
-      .style("opacity", function(d) { return k * d.r > 60 ? 1 : 0; });
+      .style("opacity", function(d) { return k * d.r > 55 ? 1 : 0; });
 
   node = d;
   d3.event.stopPropagation();
