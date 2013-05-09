@@ -159,7 +159,7 @@ var circles = vis.selectAll("circle")
 	        title: function() {
 					if (this.getAttribute('size')!=null){
 						var size = parseFloat(this.getAttribute('size')/1000*100).toFixed(2);
-						return this.getAttribute('name')+"<br><span style=font-size:14px; text-align: left;>Participação: "+size+"%</span>";
+						return this.getAttribute('name')+"<br><span style=font-size:22px; text-align: left;>Participação: "+size+"%</span>";
 					}
 					else
 						return this.getAttribute('name');
