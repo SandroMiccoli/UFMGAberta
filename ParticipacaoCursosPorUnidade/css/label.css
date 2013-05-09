@@ -1,7 +1,7 @@
 .label_background {
-  fill: #eeeeee;
+  fill: #e8f1f7;
   fill-opacity: 1;
-  stroke: #cccccc;
+  stroke: #96b9d4;
 }
 
 .label_title {
@@ -20,5 +20,5 @@
 }
 
 .inactive{
-  opacity: .5;	
+  opacity: .25;	
 }

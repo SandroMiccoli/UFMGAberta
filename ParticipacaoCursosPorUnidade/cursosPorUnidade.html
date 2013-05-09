@@ -20,7 +20,7 @@
 
 var w = 1280,
     h = 950,
-    r = 900,
+    r = 800,
     x = d3.scale.linear().range([0, r]),
     y = d3.scale.linear().range([0, r]),
     node,
@@ -100,7 +100,8 @@ d3.json("json/porCurso.json", function(data) {
     
   var nodes = pack.nodes(root);  
 
-  var colorCategoryGroup = d3.scale.category10();
+  var colorCategoryGroup = d3.scale.ordinal().domain(["Humanas","Exatas","Biologicas"])
+	    .range([ '#d62728', '#ff7f0e', '#2ca02c' ]);
 	
   var colorgroup = d3.scale.ordinal()
 	    .domain(d3.range(3))
@@ -192,23 +193,33 @@ var label = canvas
   .append("svg:g")
     .attr("class", "label");
    
-/*label.append("svg:text")
+label.append("svg:rect")    
+    .attr("class", "label_background")
+    .attr("x", -10)
+    .attr("y", 17)
+    .attr("width", ("Formandos 2011: Em quais unidades os créditos foram obtidos?").length*13.5)
+    .attr("height", 39)
+	.attr("preserveAspectRatio", "xMidYMid meet")
+    .attr("rx", 5)
+    .attr("ry", 5);
+ 
+label.append("svg:text")
     .attr("class", "label_title")
-    .attr("x", w - labelW + 100)
+    .attr("x",0)
     .attr("y", 45)
-    .attr("text-anchor", "middle")
+    .attr("text-anchor", "start")
     .style("opacity", "1")
-    .text("LEGENDA");
-*/
+    .text("Formandos 2011: Em quais unidades os créditos foram obtidos?");
+
 
 label.append("svg:rect")    
     .attr("class", "label_background")
     .attr("x", -10)
-    .attr("y", 60)
+    .attr("y", 65)
     .attr("width", labelW)
     .attr("height", labelH)
     .attr("rx", 15)
-    .attr("rx", 15);
+    .attr("ry", 15);
  
 
 label.selectAll(".label_circle")
