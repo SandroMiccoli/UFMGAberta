@@ -26,6 +26,7 @@ cabecalho = 'curso'
 for sem in sems:
 	cabecalho += ','+sem
 print cabecalho
+
 alunos = 200
 for i in range(0,alunos):
 	cursos = ['si','cc']
@@ -34,9 +35,7 @@ for i in range(0,alunos):
 	for sem in sems:
 		rsg = float('%.2f' %uniform(0,5))
 		if (rsg<1):
-			#continue
 			vida-=1
-#			print 'aeaeaee '+str(vida)
 		if (vida>=0):
 			aluno += ','+str(rsg)
 	print aluno
