@@ -3,7 +3,7 @@ class BubbleChart
     @data = data
     @width = 1000
     @height = 530
-    @default_radius = 2
+    @default_radius = 3
 
 
     @tooltip = CustomTooltip("my_tooltip", 240)
