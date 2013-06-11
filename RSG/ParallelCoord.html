@@ -15,8 +15,9 @@
     <script type="text/javascript" src="js/d3.csv.js"></script>
     <script type="text/javascript">
 
-var species = ['si','cc'],
-    traits = ['2008/1',
+var species = ['si','cc', 'ccd', 'ccm'],
+    traits = ['ADMISSAO',
+    '2008/1',
 	'2008/2',
 	'2009/1',
 	'2009/2',
@@ -75,6 +76,22 @@ d3.csv("csv/alunos.csv", function(flowers) {
       .attr("x", 12)
       .attr("dy", ".31em")
       .text(function(d) { return d; });
+
+    function mouseover(d) {
+        foreground.classed("fade", function(p) { return p.curso !== d; });
+    }
+
+    function mouseout() {
+        foreground.classed("fade", false);
+    }
+
+    legend.selectAll("line")
+            .on("mouseover", mouseover)
+            .on("mouseout", mouseout);
+
+    legend.selectAll("text")
+            .on("mouseover", mouseover)
+            .on("mouseout", mouseout);
 
   // Add foreground lines.
   foreground = svg.append("svg:g")
@@ -148,6 +165,7 @@ function brush() {
     });
   });
 }
+
 
     </script>
   </body>
