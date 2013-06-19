@@ -112,7 +112,7 @@ svg {
 
 .foreground path.fade {
   stroke: #000;
-  stroke-opacity: .05;
+  stroke-opacity: .02;
 }
 
 .legend {
@@ -129,11 +129,20 @@ svg {
 }
 
 .si {
-  stroke: #080;
+  stroke: #180688;
 }
 
 .cc {
-  stroke: #008;
+    stroke: #FF100A;
+}
+.cce {
+    stroke: #eef426;
+}
+.ccd {
+    stroke: #FFA800;
+}
+.ccm {
+    stroke: #E85B0C;
 }
 
 .brush .extent {
