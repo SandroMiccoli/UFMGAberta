@@ -3,7 +3,8 @@ class BubbleChart
     @data = data
     @width = 1000
     @height = 530
-    @default_radius = 2
+    @default_radius = 2.5
+    @filter_opacity = 1
 
 
     @tooltip = CustomTooltip("my_tooltip", 240)
@@ -37,6 +38,7 @@ class BubbleChart
         id: i
         original: d
         radius: @default_radius
+        opacity: @filter_opacity
         value: 99
         x: Math.random() * @width
         y: Math.random() * @height
@@ -61,9 +63,9 @@ class BubbleChart
     # radius will be set to 0 initially.
     # see transition below
     @circles.enter().append("circle")
-      .attr("r", 100)
+      .attr("r", 2)
       .style("fill", (d) => '#cfcfcf')
-      # .attr("stroke-width", 2)           // uncomment for border line
+      # .attr("stroke-width", 100)           // uncomment for border line
       # .attr("stroke", (d) => '#404040')  // uncomment for border line
       .attr("id", (d) -> "bubble_#{d.id}")
       .attr("opacity", 0)
@@ -72,7 +74,7 @@ class BubbleChart
       
     # Fancy transition to make bubbles appear, ending with the
     # correct radius
-    @circles.transition().duration(2000).attr("opacity",1).attr("r", (d) -> d.radius)
+    @circles.transition().duration(2000).attr("opacity", (d) -> d.opacity).attr("r", (d) -> d.radius)
 
 
   # Charge function that is called for each node.
@@ -103,7 +105,7 @@ class BubbleChart
     @hide_labels()
     @force.gravity(@layout_gravity)
       .charge(this.charge)
-      .friction(0.9)
+      .friction(0.85)
       .on "tick", (e) =>
         @circles.each(this.move_towards_center(e.alpha))
           .attr("cx", (d) -> d.x)
@@ -211,7 +213,7 @@ class BubbleChart
     total_slots = allValuesArray.length + 4
     allValuesArray.forEach (i) => 
       x_position = @width * position / total_slots
-      @group_centers[i] = { x: x_position, y : @height /2 }
+      @group_centers[i] = { x: x_position, y : @height / 2 }
       @group_labels[i] = x_position
       position = position + 1
 
@@ -240,7 +242,7 @@ class BubbleChart
   display_by_group: () =>
     @force.gravity(@layout_gravity)
       .charge(this.charge)
-      .friction(0.9)
+      .friction(0.85)
       .on "tick", (e) =>
         @circles.each(this.move_towards_group(e.alpha))
           .attr("cx", (d) -> d.x)
@@ -264,7 +266,7 @@ class BubbleChart
     labels.enter().append("text")
       .attr("class", "top_labels")
       .attr("x", (d) => @group_labels[d] )
-      .attr("y", 40)
+      .attr("y", 100)
       .attr("text-anchor", "start")
       .text((d) -> d)
 
@@ -289,7 +291,8 @@ class BubbleChart
        d.radius = @default_radius
        filters.discrete.forEach (filter) =>
          value = d.original[filter.target]
-         d.radius = 0 if filter.removeValues[value]?
+         d.radius = 2 if filter.removeValues[value]?
+         #d.opacity = 0 if filter.removeValues[value]?
        @do_filter()
 
   do_filter: () =>
