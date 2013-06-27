@@ -161,6 +161,7 @@ p {
 #myGrid {
   width: 100% !important;  /* vs jquery resizable */
   height: 260px;
+  margin: 0 10% 0 10%;
 }
 .slick-header-column {
   font-weight:bold;
