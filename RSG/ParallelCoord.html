@@ -75,7 +75,7 @@ d3.csv("csv/alunos.csv", function(flowers) {
   legend.append("svg:text")
       .attr("x", 12)
       .attr("dy", ".31em")
-      .text(function(d) { return d; });
+      .text(function(d) { if (d=="si") return "Sistemas de Informação"; else return "Ciência da Computação"; });
 
     function mouseover(d) {
         foreground.classed("fade", function(p) { return p.curso !== d; });
