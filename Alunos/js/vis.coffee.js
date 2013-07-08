@@ -270,6 +270,7 @@ class BubbleChart
       .attr("x", (d) => @group_labels[d] )
       .attr("y", 100)
       .attr("text-anchor", "start")
+      .attr("name","test")
       .text((d) -> d)
 
   # Method to hide year titiles
@@ -293,7 +294,7 @@ class BubbleChart
        d.radius = @default_radius
        filters.discrete.forEach (filter) =>
          value = d.original[filter.target]
-         d.radius = 2 if filter.removeValues[value]?
+         d.radius = 0.1 if filter.removeValues[value]?
          #d.opacity = 0 if filter.removeValues[value]?
        @do_filter()
 

@@ -79,6 +79,30 @@ lang="en">
     <script src="./js/d3.geom.min.js"></script>
     <script type="text/coffeescript" src="./js/vis.coffee.js"></script>
     <script type="text/javascript">
+		
+			var cods = {
+				'CV' : 'Convênio',
+				'VT' : 'Vestibular',
+				'DD' : 'Defesa direta de tese',
+				'MM' : 'Mudança de nível',
+				'NT' : 'Obtenção de novo título',
+				'TC' : 'Transferência comum',
+				'ES' : 'Exame seleção',
+				'TE' : 'Transferência especial',
+				'CP' : 'Revalidação de diploma',
+				'CT' : 'Cortesia',
+				'AV' : 'Aluno avulso',
+				'AE' : 'Aluno especial',
+				'RF' : 'Refugiado político',
+				'ND' : 'Não definido',
+				'SA' : 'Processo seletivo alternativo',
+				'T'  : 'Trancado',
+				'C'  : 'Calouro',
+				'N'  : 'Normal',
+				'E'  : 'Excluido'
+			};
+			
+			
         $(function() {
             var controlsVisible = true;
             $('#left-sidebar-toggle').click(function() {
@@ -204,14 +228,40 @@ lang="en">
                         break;
                 }
             }
-
+			
+			var cods = {
+				'CV' : 'Convênio',
+				'VT' : 'Vestibular',
+				'DD' : 'Defesa direta de tese',
+				'MM' : 'Mudança de nível',
+				'NT' : 'Obtenção de novo título',
+				'TC' : 'Transferência comum',
+				'ES' : 'Exame seleção',
+				'TE' : 'Transferência especial',
+				'CP' : 'Revalidação de diploma',
+				'CT' : 'Cortesia',
+				'AV' : 'Aluno avulso',
+				'AE' : 'Aluno especial',
+				'RF' : 'Refugiado político',
+				'ND' : 'Não definido',
+				'SA' : 'Processo seletivo alternativo',
+				'T'  : 'Trancado',
+				'C'  : 'Calouro',
+				'N'  : 'Normal',
+				'E'  : 'Excluido'
+			};
+			
             var filterList = $('#filter-list');
+            //console.log(lookups);
             for (var i in lookups) {
                 var lookup = lookups[i];
                 var values = get_distinct_values(csv, lookup.type, lookup.key);
                 var item = $('<div class="filter_block" data-target="' + lookup.key + '"><h3 class="filter_title">' + lookup.title + '</h3></div>');
                 for (var j in values) {
-                    var checkbox = $('<div class="sub-filter-block"><input type="checkbox" checked="checked" value="' + values[j] + '"/> ' + values[j] + '</div>');
+					console.log(values);
+					if (cods[values[j]]) var codName = values[j]+" - "+cods[values[j]];
+					else codName = values[j];
+                    var checkbox = $('<div class="sub-filter-block"><input type="checkbox" checked="checked" value="' + values[j] + '"/> ' + codName + '</div>');
                     checkbox.appendTo(item);
                 }
                 item.appendTo(filterList);
@@ -238,6 +288,8 @@ lang="en">
 
                 var table = $('<table />');
                 for (var key in color_mapper) {
+					if (cods[key]) var codName = key+" - "+cods[key];
+					else codName = key;
                     var row = $('<tr/>');
 
                     var cell = $('<td/>');
@@ -246,7 +298,7 @@ lang="en">
                     cell.appendTo(row);
 
                     cell = $('<td/>');
-                    cell.text(' ' + key + ' ');
+                    cell.text(' ' + codName + ' ');
                     cell.appendTo(row);
                     row.appendTo(table);
                 }
