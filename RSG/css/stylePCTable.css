@@ -36,18 +36,18 @@ p {
   padding: 2px 0px;
   margin: 12px 0 0 12px;
 }
-#nav .toggle {
+#widgets .toggle {
   margin: 12px 8px 0 0;
   padding: 4px;
   height: 16px;
   background: rgba(0,0,0,0.1);
   color: #666;
 }
-#nav a.toggle:hover {
+#widgets a.toggle:hover {
   color: #222;
   background: rgba(0,0,0,0.15);
 }
-#nav .toggle.on {
+#widgets .toggle.on {
   color: #222;
   font-weight: bold;
 }
@@ -328,13 +328,13 @@ body.inverted {
 .inverted .button:hover {
   background: #ddd;
 }
-.inverted #nav .toggle {
+.inverted #widgets .toggle {
   color: #666;
 }
-.inverted #nav a.toggle:hover {
+.inverted #widgets a.toggle:hover {
   background: rgba(255,255,255,0.1);
 }
-.inverted #nav .toggle.on {
+.inverted #widgets .toggle.on {
   color: #ddd;
 }
 
