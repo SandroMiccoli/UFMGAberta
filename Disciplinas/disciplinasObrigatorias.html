@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title>Disciplinas Obrigatórias dos cursos de CC e SI</title>
+    <script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="https://raw.github.com/bigmlcom/tipsy/master/src/javascripts/jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/tipsy.css" type="text/css" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" title="no title" charset="utf-8">
+    
+<script>
+$(function() {
+ 
+    var sticky_navigation_offset_top = $('#info').offset().top;
+
+    var sticky_navigation = function(){
+        var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+         
+        if (scroll_top > sticky_navigation_offset_top) { 
+            $('#info').css({ 'position': 'fixed', 'top':0 });
+        } else {
+            $('#info').css({ 'position': 'relative' }); 
+        }   
+    };
+     
+    sticky_navigation();
+     
+    $(window).scroll(function() {
+         sticky_navigation();
+    });
+ 
+});
+</script>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="words">
+    <h1>Disciplinas Obrigatórias dos cursos de Ciência da Computação e Sistemas de Informação</h1>
+	
+    <p>Essas são todas as disciplinas obrigatóridas dos dois cursos. Foi contabilizado nesse gráfico a quantidade de matrículas feitas pra cada disciplina. Então podemos inferir que as disciplinas que foram mais matriculadas são as mais repetidas.</p> 
+    </div>
+
+<div id="content">
+<div id="infoWrap">
+    <div id="info">
+        <div id="key">
+            Ordenado alfabeticamente
+        </div>
+        
+    <div id="menuWrap">
+        <div class="menus">
+        <form id="sort">
+            <h2>Ordenar por:</h2>
+            <label><input type="radio" name="sorter" value="name" checked> Nome da disciplina</label><br />
+            <label><input type="radio" name="sorter" value="matriculas"> Matrículas feitas</label><br />
+            <label><input type="radio" name="sorter" value="si"> Sistemas de Informação</label><br />
+            <label><input type="radio" name="sorter" value="cc"> Ciência da Computação</label>
+            </form>
+        </div>
+        <br />
+        <div class="menus">
+            <form id="coloration">
+            <h2>Colorir por perídos dos cursos:</h2>
+            <label><input type ="radio" name="color" value="none" checked>Nenhum</label><br />
+            <label><input type ="radio" name="color" value="si">Sistemas de Informação</label><br />
+            <label><input type ="radio" name="color" value="cc">Ciência da Computação</label>
+            </form>
+            <div id="colorLegend">
+            <span class="legends" id="color" style="display:none"><p>1º ao 8º período</p>
+            <img class="gradient" src="img/escala.png"></img></span>
+    </div>
+    
+    </div>
+    </div>
+</div>
+</div>
+    
+<div id="chart">
+    <script type="text/javascript">
+    var margin = {top: 40, right: 20, bottom: 80, left: 350},
+        w = 850 - margin.left - margin.right,
+        h = 1500 - margin.top - margin.bottom,
+        x = d3.scale.linear().range([5, w]),
+        y = d3.scale.ordinal().rangeRoundBands([0, h], .05)
+        currFormat = d3.format(",.0f");
+        
+    var svg = d3.select("#chart").append("svg")
+        .attr("width", w + margin.left + margin.right)
+        .attr("height", h + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+    var xAxis = d3.svg.axis()
+        .scale(x)
+       .orient("top");
+       
+    svg.append("g")
+      .attr("class", "x axis");
+      
+    svg.append("text")
+        .attr("class", "x label")
+        .attr("text-anchor", "end")
+        .attr("x", w)
+        .attr("y", 20)
+        .text("Total de matrículas feitas")
+      
+    svg.append("g")
+    .attr("class", "y axis")
+    .append("line")
+    .attr("class", "domain")
+    .attr("y2", h);
+    
+        
+d3.csv("data/disciplinasMatriculas.csv", function(csv) {
+  
+    csv.forEach(function(d) {
+        d.MATRICULAS = +d.MATRICULAS
+        if (d.PERSI=="") d.PERSI=9;
+        else d.PERSI = +d.PERSI
+        if (d.PERCC=="") d.PERCC=9;
+        else d.PERCC = +d.PERCC;
+        
+    });
+    
+    // set domains for color scales based on transparency and internet penetration
+    var colorPer = d3.scale.ordinal()
+        .domain([1,9])
+        .range(["#1f77b4","#eeeeee","#bcbd22", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2" ]);
+    
+    
+          
+    x.domain([0, d3.max(csv, function(d) { return d.MATRICULAS; })]);
+    y.domain(csv.map(function(d) { return d.AAC_NOME_CHR; }));    
+      
+        
+    var rect = svg.selectAll(".rects")
+        .data(csv, function(d) { return d.AAC_NOME_CHR; })
+            
+    var rectEnter = rect.enter().insert("g", ".axis")
+        .attr("transform", function(d, i) { return "translate(0," + y(d.AAC_NOME_CHR) + ")"; })
+        .attr("class", "rects")
+    
+        rectEnter.append("rect")
+        .attr({
+            height: y.rangeBand(),
+            width: function(d) { return x(d.MATRICULAS); },
+            fill: "#cccccc"
+            })
+        
+        rectEnter.append("title")
+        .text(function(d) { return currFormat(d.MATRICULAS) + " matrículas"});
+        
+    $(".rects").tipsy({gravity:'w'});
+
+        rectEnter.append("text")
+        .attr("class", "label")
+            .attr("x", -3)
+            .attr("y", y.rangeBand() / 2)
+            .attr("dy", ".35em")
+            .attr("text-anchor", "end")
+            .text(function(d) { return d.AAC_NOME_CHR; });
+        
+    svg.select(".x.axis")
+        .call(xAxis);  
+        
+    d3.selectAll("#sort input").on("change", changeSort);
+    d3.selectAll("#coloration input").on("change", changeColor); 
+         
+  // function that will change order in which bars are displayed
+  function changeSort() {
+    var ySort;
+        if (this.value === "cc") {
+            ySort = y.domain(csv.sort(function(a, b) { return d3.ascending(a.PERCC, b.PERCC); })
+            .map(function(d) { return d.AAC_NOME_CHR; }))
+            
+            $("#key")
+            .fadeOut(400, function() { $(this).html("Por período de Ciência da Computação"); })
+            .delay(0)
+            .fadeIn(400);
+        }
+        else if (this.value === "matriculas") {
+            ySort = y.domain(csv.sort(function(a, b) { return d3.descending(a.MATRICULAS, b.MATRICULAS); })
+            .map(function(d) { return d.AAC_NOME_CHR; }))
+            
+            $("#key")
+            .fadeOut(400, function() { $(this).html("Disciplinas mais matriculadas"); })
+            .delay(0)
+            .fadeIn(400);
+        }
+        else if (this.value === "si") {
+            ySort = y.domain(csv.sort(function(a, b) { return d3.ascending(a.PERSI, b.PERSI); })
+            .map(function(d) { return d.AAC_NOME_CHR; }))
+            
+            $("#key")
+            .fadeOut(400, function() { $(this).html("Por período de Sistemas de Informação"); })
+            .delay(0)
+            .fadeIn(400);
+        }
+        else { 
+            ySort = y.domain(csv.sort(function(a, b) { return d3.ascending(a.AAC_NOME_CHR, b.AAC_NOME_CHR); })
+            .map(function(d) { return d.AAC_NOME_CHR; }))
+            
+            $("#key")
+                .fadeOut(400, function() { $(this).html("Ordenado alfabeticamente"); })
+                .delay(0)
+                .fadeIn(400);
+                }
+
+    var transitionSort = svg.transition().duration(700),
+        delay = function(d, i) { return i * 25; };
+
+    transitionSort.selectAll(".rects")
+    .delay(delay)
+    .attr("transform", function(d, i) { return "translate(0," + ySort(d.AAC_NOME_CHR) + ")"; });
+    
+        
+    transitionSort.select(".y.axis")
+    .selectAll("g")
+    .delay(delay);
+    };
+  
+  // function that will change color scale used      
+  function changeColor() {
+  
+    var transitionColor = rect.transition().duration(1000)
+    
+        if (this.value === "cc") {
+            transitionColor.selectAll("rect")
+                .attr("fill", function(d, i) { return colorPer(d.PERCC); })
+              
+            $("span.legends").fadeIn(400);
+            
+        } else if (this.value === "si") {
+            transitionColor.selectAll("rect")
+                .attr("fill", function(d, i) { return colorPer(d.PERSI); })
+            
+            $("span.legends").fadeIn(400);
+         
+        } else { 
+            transitionColor.selectAll("rect")
+                .attr("fill", "#cccccc")
+                
+            $("span.legends").fadeOut(100)
+                .delay(0);
+        }     
+        }; 
+  });
+
+    </script>
+</div>
+</div>
+</div>
+</body>
+
+</html>

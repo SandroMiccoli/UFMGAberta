@@ -1,0 +1,49 @@
+
+    #wrapper { width: 1260px; position:relative; margin:0 auto;}
+
+    body { font-size:13px; font-family: Arial, Helvetica, sans-serif;}
+    #words { font-size: 18px; width:1260px; margin:0 auto; }
+    h1 { font-size: 36px; font-weight: bold;}
+    
+    a:link { text-decoration:none; }
+    a:hover { text-decoration: underline; }
+    
+    .axis path,
+    .axis line { fill: none; stroke: #000; shape-rendering: crispEdges;}
+    
+    #content { width:1260px; float:left; margin-bottom:20px;}
+    #chart { float: left; }
+    
+    #infoWrap {
+        float: right;
+        width:300px;
+        }
+        
+    #info { margin-top:25px; }
+    
+    #key {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    #arrow { width:300px;  margin: 0 auto;}
+    
+    #colorLegend { width:300px; }
+        img.gradient { margin-top:-16px;}
+    
+    #menuWrap {
+        padding:15px 25px 25px 15px;
+        margin-top:25px;
+        background:#eeeeec;
+        width:200px;
+        }
+    
+    .menus {
+        font-size: 15px;
+        }
+        
+    h2 { font-size: 15px; font-weight: bold;}
+    #footer { width: 850px; margin: 40px auto 10px auto; font-size:16px; }
+	
+	div.social { width:350px; margin:0px; float:left; }
+    div.fb-like { margin-right:25px; vertical-align:top; zoom:1; *display:inline; }
